@@ -1,0 +1,34 @@
+
+const BioSection = () => {
+  return (
+
+  <section className="px-8 md:px-16 py-10 ">
+        <div className="w-full">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-xl font-semibold text-[#454949] mb-4">BIO:</h2>
+            
+            <div className="space-y-6 text-[#454949] leading-relaxed">
+              <p className="text-lg font-meduim">
+                A creative Graphic Designer and UX/UI Designer driven by a passion for building beautiful, 
+                meaningful, and seamless user experiences.I turn ideas into visual stories blending artistic vision 
+                with user-centered thinking to create designs that truly connect.
+              </p>
+              
+              <p className="text-lg font-meduim">
+                With hands-on experience from concept to final execution, I pay close attention<br />
+                to every technical detail and believe that listening deeply<br />
+                to clients is the secret to achieving.
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <div className="w-30 h-30 absolute left-[-45rem] lg:left-[-45rem] "> 
+          <img className="w-30 h-30 "src='src/assets/circle.svg'/>
+        </div>
+      </section>
+
+        );
+};
+
+export default BioSection;

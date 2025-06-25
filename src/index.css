@@ -1,0 +1,15 @@
+body { overflow-x: hidden; }
+.linear-bg {
+  background: linear-gradient(to bottom, #66000000  0%, #a5a5a57a 61%, #4549498f  100%);
+}
+
+
+.variable-font {
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "wght" 400;
+  transition: font-variation-settings 0.3s ease;
+}
+
+.variable-font:hover {
+  font-variation-settings: "wght" 700;
+}
