@@ -9,7 +9,7 @@ const FooterSection = () => {
         {/* Replace this div with your background SVG */}
         {/* <img src="/path-to-your-background.svg" className="w-full h-full object-cover" alt="" /> */}
         {/* <div className="w-full h-full bg-gradient-to-r from-gray-300 to-gray-400"></div> */}
-        {/* <img src="src/assets/footer.svg" className="w-full h-full object-cover" alt="XXXX" /> */}
+        {/* <img src="/assets/footer.svg" className="w-full h-full object-cover" alt="XXXX" /> */}
       </div>
       
       {/* Footer Content */}
@@ -21,7 +21,7 @@ const FooterSection = () => {
             
             <div className="flex-shrink-0">
               <div className="w-20 h-16 rounded-lg flex items-center justify-center">
-                <img className="text-white font-bold text-xl" src="src/assets/Norah.svg" />
+                <img className="text-white font-bold text-xl" src="/assets/Norah.svg" />
               </div>
             </div>
             

@@ -54,7 +54,7 @@ const SkillsSection = () => {
               
                 <div className="w-full h-48 rounded-lg flex items-center justify-center">
                   <span className="text-gray-600 text-center">
-                    <img src="src/assets/skills.svg" className="w-full h-auto" alt="Software Skills" />
+                    <img src="/assets/skills.svg" className="w-full h-auto" alt="Software Skills" />
                   </span>
                 </div>
               </div>

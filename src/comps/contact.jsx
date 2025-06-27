@@ -5,29 +5,29 @@ const ChatBoxComponent = () => {
   <div>
 
      <div className="w-30 h-30 absolute left-[-45rem] lg:left-[-45rem] "> 
-        <img className="w-30 h-30 "src='src/assets/circle.svg'/>
+        <img className="w-30 h-30 "src='/assets/circle.svg'/>
         </div>
 
           <div className="w-30 h-30 absolute right-[-45rem] lg:right-[-45rem] "> 
-          <img className="w-30 h-30 "src='src/assets/circle.svg'/>
+          <img className="w-30 h-30 "src='/assets/circle.svg'/>
         </div>
 
 
-    <img src="src/assets/c1-new.svg" className="w-full py-12"/>
+    <img src="/assets/c1-new.svg" className="w-full py-12"/>
     
     <div className="flex items-center justify-center p-12">
       <div className="relative max-w-md w-full group">
         {/* Left SVG Character */}
         <div className="absolute -left-8 top-0 z-10">
           <div className="w-16 h-20 rounded-lg flex items-center justify-center text-xs text-gray-500">
-            <img src='src/assets/sitleft.svg' alt="Left character"/>
+            <img src='/assets/sitleft.svg' alt="Left character"/>
           </div>
         </div>
 
         {/* Right SVG Character */}
         <div className="absolute -right-8 top-4 z-10">
           <div className="w-16 h-20 rounded-lg flex items-center justify-center text-xs text-gray-500">
-            <img src='src/assets/sitright.svg' alt="Right character"/>
+            <img src='/assets/sitright.svg' alt="Right character"/>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const ChatBoxComponent = () => {
       </div>
     </div>
 
-    <img src="src/assets/c2-new.svg" className="w-full py-12"/>
+    <img src="/assets/c2-new.svg" className="w-full py-12"/>
 
 
     

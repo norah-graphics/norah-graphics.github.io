@@ -24,7 +24,7 @@ const BioSection = () => {
         </div>
 
          <div className="w-30 h-30 absolute left-[-45rem] lg:left-[-45rem] "> 
-          <img className="w-30 h-30 "src='src/assets/circle.svg'/>
+          <img className="w-30 h-30 "src='/assets/circle.svg'/>
         </div>
       </section>
 

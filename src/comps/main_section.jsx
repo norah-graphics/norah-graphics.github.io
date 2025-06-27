@@ -24,7 +24,7 @@ const MainSection = () => {
                   {/* Custom SVG line - replace with your own */}
                   {/* <img src="/path-to-your-svg.svg" className="absolute -bottom-2 left-0 w-20 h-1" alt="" /> */
                   }
-                  <img src="src/assets/smalline.svg" className="absolute -bottom-2 left-0 w-20 h-3" alt="" />
+                  <img src="/assets/smalline.svg" className="absolute -bottom-2 left-0 w-20 h-3" alt="" />
 
                   {/* <div className="absolute -bottom-1 left-0 w-20 h-0.5 bg-orange-400 rounded"></div> */}
                 </span>
@@ -38,7 +38,7 @@ const MainSection = () => {
                   {/* Custom SVG line - replace with your own */}
                   {/* <img src="/path-to-your-svg.svg" className="absolute -bottom-2 left-0 w-full h-1" alt="" /> */}
                   {/* <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-orange-400 rounded"></div> */}
-                  <img src="src/assets/bigline.svg"className="absolute -bottom-2 left-0 w-full h-3" alt="" />
+                  <img src="/assets/bigline.svg"className="absolute -bottom-2 left-0 w-full h-3" alt="" />
 
                 </span>
               </div>
@@ -53,7 +53,7 @@ const MainSection = () => {
               onMouseLeave={() => setIsHovered(false)}
             >
               <img 
-                src={isHovered ? "src/assets/face3.svg" : "src/assets/face1.svg"}
+                src={isHovered ? "/assets/face3.svg" : "/assets/face1.svg"}
                 className="transition-opacity duration-300 ease-in-out"
                 alt="Face"
               />
@@ -63,7 +63,7 @@ const MainSection = () => {
         </div>
 
         <div className="w-30 h-30 absolute right-[-45rem] lg:right-[-45rem]"> 
-          <img className="w-30 h-30 "src='src/assets/circle.svg'/>
+          <img className="w-30 h-30 "src='/assets/circle.svg'/>
         </div>
       
 

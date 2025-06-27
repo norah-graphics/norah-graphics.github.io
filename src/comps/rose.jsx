@@ -13,7 +13,7 @@ const RoseRapsodyShowcase = () => {
           {/* Left Side - SVG Image Placeholder */}
           <div className="lg:w-1/2 flex items-center justify-center p-8">
             <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500">
-              <img src='src/assets/roseApp.svg' alt="Rose App"/>
+              <img src='/assets/roseApp.svg' alt="Rose App"/>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ const RoseRapsodyShowcase = () => {
           <div className="lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center">
             {/* Logo */}
             <div className="mb-8 flex justify-center">
-              <img src='src/assets/roseLogo.svg' alt="Rose Rapsody Logo"/>
+              <img src='/assets/roseLogo.svg' alt="Rose Rapsody Logo"/>
             </div>
 
             {/* Description */}
@@ -29,7 +29,7 @@ const RoseRapsodyShowcase = () => {
               {/* Star Icon - Positioned above first line of text */}
               <div className="absolute -top-6 left-[-1.5rem]">
                 <div className="w-9 h-9 rounded flex items-center justify-center">
-                  <img src='src/assets/star.svg' alt="Star"/>
+                  <img src='/assets/star.svg' alt="Star"/>
                 </div>
               </div>
               

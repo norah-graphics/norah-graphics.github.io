@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo - Always visible */}
           <div className="text-2xl font-bold text-[#454949]">
-            <img src="src/assets/Norah.svg" alt="Norah" />
+            <img src="/assets/Norah.svg" alt="Norah" />
           </div>
           
           {/* Desktop Navigation - Hidden on mobile */}

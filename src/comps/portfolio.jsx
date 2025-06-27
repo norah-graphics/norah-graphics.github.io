@@ -22,7 +22,7 @@ const PortfolioSection = () => {
         <div className="relative flex flex-col lg:flex-row items-center lg:items-start">
           {/* Portfolio SVG */}
           <div className="relative mb-8 lg:mb-0">
-            <img src='src/assets/portfolio.svg' alt="Portfolio" className="max-w-full h-auto"/>
+            <img src='/assets/portfolio.svg' alt="Portfolio" className="max-w-full h-auto"/>
           </div>
 
           {/* Mission text - responsive positioning */}
@@ -70,7 +70,7 @@ const PortfolioSection = () => {
       </div>
 
         <div className="w-30 h-30 absolute right-[-45rem] lg:right-[-45rem] "> 
-          <img className="w-30 h-30 "src='src/assets/circle.svg'/>
+          <img className="w-30 h-30 "src='/assets/circle.svg'/>
         </div>
     </div>
   );
