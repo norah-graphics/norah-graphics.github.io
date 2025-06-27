@@ -4,7 +4,7 @@ import SideCircleLeft from './side_circle_left';
 
 const ChatBoxComponent = () => {
   return (
-  <div>
+  <div className='overflow-hidden'>
 
      <SideCircleLeft/>
 

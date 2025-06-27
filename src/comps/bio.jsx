@@ -2,7 +2,7 @@ import SideCircleLeft from "./side_circle_left.jsx"
 const BioSection = () => {
   return (
 
-  <section className="px-8 md:px-16 py-10 ">
+  <section className="px-8 md:px-16 py-10 overflow-hidden">
         <div className="w-full">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-xl font-semibold text-[#454949] mb-4">BIO:</h2>

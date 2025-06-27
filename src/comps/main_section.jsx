@@ -6,7 +6,7 @@ const MainSection = () => {
 
   return (
 
- <main className="px-8 md:px-16 py-12 min-h-[80vh] flex items-center" >
+ <main className="px-8 md:px-16 py-12 min-h-[80vh] flex items-center overflow-hidden" >
         <div className="w-full" >
           <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-12 max-w-6xl mx-auto">
           

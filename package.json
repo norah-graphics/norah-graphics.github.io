@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "postbuild": "copyfiles -f dist/index.html dist/404.html",
+    "postbuild": "node -e \"const fs = require('fs'); fs.copyFileSync('dist/index.html', 'dist/404.html'); console.log('404.html created successfully');\"",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
