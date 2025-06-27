@@ -1,4 +1,12 @@
-body { overflow-x: hidden; }
+body {
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
 .linear-bg {
   background: linear-gradient(to bottom, #66000000  0%, #a5a5a57a 61%, #4549498f  100%);
 }

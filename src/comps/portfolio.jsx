@@ -13,7 +13,7 @@ const PortfolioSection = () => {
   };
 
   return (
-    <div className="pt-20 pb-32 flex-col items-center justify-center px-6 relative overflow-hidden flex">
+    <div className="pt-20 pb-32 flex-col items-center justify-center px-6 overflow-hidden flex ">
       
       {/* Main content container */}
       <div className="max-w-6xl w-full flex items-center justify-center">
