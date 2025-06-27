@@ -3,7 +3,7 @@ import React from 'react';
 const HannaRapsodyShowcase = () => {
   const handleViewCaseStudy = () => {
     // This would navigate to the case study page
-    window.open('/Hanah.pdf', '_blank');
+    window.open('/HanaMaak.pdf', '_blank');
   };
 
   return (
