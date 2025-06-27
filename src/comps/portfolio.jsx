@@ -1,5 +1,5 @@
 import '../index.css';  
-
+import SideCircle from './side_circle_right';
 const PortfolioSection = () => {
   const handleClick = () => {
     // Get the current section height (assuming full viewport height)
@@ -69,9 +69,7 @@ const PortfolioSection = () => {
         </div>
       </div>
 
-        <div className="w-30 h-30 absolute right-[-45rem] lg:right-[-45rem] "> 
-          <img className="w-30 h-30 "src='/assets/circle.svg'/>
-        </div>
+        <SideCircle/>
     </div>
   );
 }

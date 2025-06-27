@@ -1,16 +1,14 @@
 import React from 'react';
+import SideCircleRight from './side_circle_right';
+import SideCircleLeft from './side_circle_left';
 
 const ChatBoxComponent = () => {
   return (
   <div>
 
-     <div className="w-30 h-30 absolute left-[-45rem] lg:left-[-45rem] "> 
-        <img className="w-30 h-30 "src='/assets/circle.svg'/>
-        </div>
+     <SideCircleLeft/>
 
-          <div className="w-30 h-30 absolute right-[-45rem] lg:right-[-45rem] "> 
-          <img className="w-30 h-30 "src='/assets/circle.svg'/>
-        </div>
+          <SideCircleRight/>
 
 
     <img src="/assets/c1-new.svg" className="w-full py-12"/>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import SideCircleRight from './side_circle_right';
 
 const MainSection = () => {
     const [isHovered, setIsHovered] = useState(false);
@@ -62,9 +63,7 @@ const MainSection = () => {
         </div>
         </div>
 
-        <div className="w-30 h-30 absolute right-[-45rem] lg:right-[-45rem]"> 
-          <img className="w-30 h-30 "src='/assets/circle.svg'/>
-        </div>
+        <SideCircleRight/>
       
 
       </main>

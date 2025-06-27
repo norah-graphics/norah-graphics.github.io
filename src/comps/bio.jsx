@@ -1,4 +1,4 @@
-
+import SideCircleLeft from "./side_circle_left.jsx"
 const BioSection = () => {
   return (
 
@@ -23,9 +23,7 @@ const BioSection = () => {
           </div>
         </div>
 
-         <div className="w-30 h-30 absolute left-[-45rem] lg:left-[-45rem] "> 
-          <img className="w-30 h-30 "src='/assets/circle.svg'/>
-        </div>
+         <SideCircleLeft/>
       </section>
 
         );
