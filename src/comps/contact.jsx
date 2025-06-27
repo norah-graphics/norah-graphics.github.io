@@ -46,7 +46,7 @@ const ChatBoxComponent = () => {
           
           {/* Email Button - Hidden by default, shows on hover */}
             <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center">
-            <button className="bg-gray-300 hover:bg-[#454949] text-gray-700 hover:text-white px-8 py-3 rounded-full transition-all duration-200">
+            <button className="bg-[#D9D9D9] hover:bg-[#454949] text-gray-700 hover:text-white px-8 py-3 rounded-full transition-all duration-200">
               My Email
             </button>
           </div>
