@@ -10,7 +10,7 @@ const App = () => {
 
   return (
 
-    <div className="min-h-screen bg-[#F3F3F3]">
+    <div className="min-h-screen bg-[#F3F3F3]  overflow-x-hidden max-w-full">
      <HeaderSection/>
        <MainSection/>
        <BioSection/>

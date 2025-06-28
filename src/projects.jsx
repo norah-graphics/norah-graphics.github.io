@@ -13,7 +13,7 @@ import HannaRapsodyShowcase from './comps/hannah';
 import ChatBoxComponent from './comps/contact';
 const Projects = () => {
   return (
-    <div className="min-h-screen bg-[#F3F3F3]">
+    <div className="min-h-screen bg-[#F3F3F3]  overflow-x-hidden max-w-full">
      <HeaderSection/>
      <PortfolioSection/>
      <ProjectsSection/>
