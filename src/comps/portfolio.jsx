@@ -1,19 +1,16 @@
 import '../index.css';  
 import SideCircle from './side_circle_right';
+import { useNavigate, useLocation } from 'react-router-dom';
+
 const PortfolioSection = () => {
+  const navigate = useNavigate();
+
   const handleClick = () => {
-    // Get the current section height (assuming full viewport height)
-    const sectionHeight = window.innerHeight;
-    
-    // Smooth scroll to next section
-    window.scrollTo({
-      top: sectionHeight,
-      behavior: 'smooth'
-    });
+   navigate('/About');
   };
 
   return (
-    <div className="pt-20 pb-32 flex-col items-center justify-center px-6 overflow-hidden flex ">
+    <div className="pt-40 pb-32 flex-col items-center justify-center px-6 overflow-hidden flex ">
       
       {/* Main content container */}
       <div className="max-w-6xl w-full flex items-center justify-center">

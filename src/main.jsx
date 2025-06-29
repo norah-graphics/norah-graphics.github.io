@@ -2,15 +2,18 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css'
-import Home from './App'
-import Projects from './Projects';
+import About from './About'
+import Home from './Projects';
+import ScrollToTop from './comps/scroll_top'; // adjust path as needed
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter basename="/">
+     <ScrollToTop /> 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<Home />} /> 
       </Routes>
     </BrowserRouter> 

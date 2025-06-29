@@ -16,15 +16,15 @@ const ChatBoxComponent = () => {
     <div className="flex items-center justify-center p-12">
       <div className="relative max-w-md w-full group">
         {/* Left SVG Character */}
-        <div className="absolute -left-8 top-0 z-10">
-          <div className="w-16 h-20 rounded-lg flex items-center justify-center text-xs text-gray-500">
+        <div className="absolute -left-12 top-[-6rem] z-10">
+          <div className="w-[7rem] rounded-lg flex items-center justify-center text-xs text-gray-500">
             <img src='/assets/sitleft.svg' alt="Left character"/>
           </div>
         </div>
 
         {/* Right SVG Character */}
-        <div className="absolute -right-8 top-4 z-10">
-          <div className="w-16 h-20 rounded-lg flex items-center justify-center text-xs text-gray-500">
+        <div className="absolute -right-0 top-[-3.5rem] z-10">
+          <div className="w-[7rem]  rounded-lg flex items-center justify-center text-xs text-gray-500">
             <img src='/assets/sitright.svg' alt="Right character"/>
           </div>
         </div>
@@ -37,16 +37,18 @@ const ChatBoxComponent = () => {
         </div>
 
         {/* Main Content Box */}
-        <div className="bg-[#D9D9D980] rounded-b-2xl rounded-t-none px-8 py-12 shadow-lg border border-[#454949] border-t-0 cursor-pointer transition-all duration-300">
-          <h2 className="text-[6rem] md:text-[5rem] font-medium text-[#454949] text-center tracking-wide font-jomhuria transition-all duration-300 group-hover:text-[7rem] md:group-hover:text-[7rem] group-hover:text-[#454949] mb-6">
-            Get in touch
-          </h2>
+        <div className="bg-[#D9D9D980] rounded-b-2xl rounded-t-none px-8 py-6 shadow-lg border border-[#454949] border-t-0 cursor-pointer transition-all duration-300">
+           <div className="h-[150px] flex items-center justify-center">
+            <h2 className="leading-none text-[6rem] md:text-[5rem] font-medium text-[#45494980] text-center tracking-wide font-jomhuria transition-all duration-300 group-hover:text-[7rem] md:group-hover:text-[7rem] group-hover:text-[#454949]">
+              Get in touch
+            </h2>
+          </div>
           
           {/* Email Button - Hidden by default, shows on hover */}
-            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center">
+          <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center">
             <button 
-            onClick={() => window.location = 'mailto:norah20400@outlook.com'}
-            className="bg-[#D9D9D9] hover:bg-[#454949] text-gray-700 hover:text-white px-8 py-3 rounded-full transition-all duration-200">
+              onClick={() => window.location = 'mailto:norah20400@outlook.com'}
+              className="bg-[#D9D9D9] hover:bg-white hover:shadow-[0_4px_15px_rgba(0,0,0,0.2)] text-[#454949] px-8 py-3 rounded-full transition-all duration-200">
               My Email
             </button>
           </div>

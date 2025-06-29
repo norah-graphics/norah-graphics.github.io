@@ -21,7 +21,10 @@ const Projects = () => {
      <SmartRapsodyShowcase/>
      <HannaRapsodyShowcase/>
      <ChatBoxComponent/>
-      <FooterSection/>
+      <FooterSection
+       title="in"
+      link="https://www.linkedin.com/in/norah-mohammed-110253206/"
+      />
     </div>
   );
 };

@@ -1,20 +1,47 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
-
+  const location = useLocation();
 
   const openResume = () => {
-    window.open('/resume.pdf', '_blank');
+    window.open('/Norah_Mohammed_Senior_Graphic_Designer_&_UX_UI_Specialist.pdf', '_blank');
     setIsMenuOpen(false); // Close menu after action
+  };
+
+  const handleProjectsClick = () => {
+    setIsMenuOpen(false); // Close menu after action
+    
+    // Check if we're on the home page
+    if (location.pathname === '/') {
+      // We're on home page, scroll to projects section
+      const projectsSection = document.getElementById('projects-section');
+      if (projectsSection) {
+        projectsSection.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    } else {
+      // We're on another page, navigate to home and then scroll
+      navigate('/');
+      // Wait a bit for navigation to complete, then scroll
+      setTimeout(() => {
+        const projectsSection = document.getElementById('projects-section');
+        if (projectsSection) {
+          projectsSection.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      }, 100);
+    }
   };
 
   return (
     <>
-      <header className="w-full py-6 px-8 md:px-16 bg-[#FFFFFF] relative z-50">
+      <header className="w-full py-6 px-8 md:px-16 bg-[#FFFFFF] fixed z-50">
         <div className="flex justify-between items-center">
           {/* Logo - Always visible */}
           <div className="text-2xl font-bold text-[#454949]">
@@ -29,8 +56,14 @@ const Header = () => {
             >
               Home
             </button>
+             <button 
+              onClick={() => navigate('/About')}
+              className="px-6 py-2 rounded-full bg-[#D9D9D9] text-gray-700 transition-all duration-300 hover:bg-[#454949] hover:text-white"
+            >
+              About me!
+            </button>
             <button 
-              onClick={() => navigate('/projects')}
+              onClick={handleProjectsClick}
               className="px-6 py-2 rounded-full bg-[#D9D9D9] text-gray-700 transition-all duration-300 hover:bg-[#454949] hover:text-white"
             >
               Projects
@@ -82,13 +115,26 @@ const Header = () => {
         {/* Menu Items */}
         <nav className="flex flex-col p-6 space-y-4">
           <button 
-            onClick={() => navigate('/')}
+            onClick={() => {
+              navigate('/');
+              setIsMenuOpen(false);
+            }}
             className="w-full px-6 py-3 rounded-full bg-[#D9D9D9] text-gray-700 transition-all duration-300 hover:bg-[#454949] hover:text-white text-left"
           >
             Home
           </button>
+
+           <button 
+            onClick={() => {
+              navigate('/About');
+              setIsMenuOpen(false);
+            }}
+            className="w-full px-6 py-3 rounded-full bg-[#D9D9D9] text-gray-700 transition-all duration-300 hover:bg-[#454949] hover:text-white text-left"
+          >
+            About me!
+          </button>
           <button 
-            onClick={() => navigate('/projects')}
+            onClick={handleProjectsClick}
             className="w-full px-6 py-3 rounded-full bg-[#D9D9D9] text-gray-700 transition-all duration-300 hover:bg-[#454949] hover:text-white text-left"
           >
             Projects

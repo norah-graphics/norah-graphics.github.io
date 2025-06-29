@@ -3,9 +3,9 @@ import { useState } from 'react';
 
 const ProjectsSection = () => {
  return (
-      <div className="linear-bg pt-[8rem] pb-[4rem] rounded-b-[3rem] ">
+      <div id="projects-section" className="linear-bg pt-[8rem] pb-[4rem] rounded-b-[3rem] ">
         <div className="text-center">
-          <h2 className="text-4xl lg:text-5xl font-bold tracking-widest opacity-60  text-white">
+          <h2 className="text-4xl lg:text-5xl font-black tracking-widest opacity-60  text-white">
             MY PROJECTS
           </h2>
         </div>

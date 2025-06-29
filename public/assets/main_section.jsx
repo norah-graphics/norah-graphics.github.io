@@ -6,21 +6,21 @@ const MainSection = () => {
 
   return (
 
- <main className="md:pl-[14rem] md:pr-[12rem] px-8 py-12 min-h-[80vh] flex items-center overflow-hidden pt-40" >
+ <main className="px-8 md:px-16 py-12 min-h-[80vh] flex items-center overflow-hidden pt-40" >
         <div className="w-full" >
-          <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between max-w-6xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-12 max-w-6xl mx-auto">
           
           {/* Text Section */}
           <div className="flex-1 max-w-2xl">
-            <h1 className="text-6xl md:text-9xl font-regular text-[#454949] font-jomhuria tracking-wide leading-none "   
+            <h1 className="text-6xl md:text-9xl font-bold text-[#454949] font-jomhuria tracking-wide leading-none "   
             style={{ lineHeight: 0.7 }}>
               Hello!<br/>
               I'm Norah
             </h1>
             
-            <div className="text-xl text-[#454949] leading-relaxed">
+            <div className="text-lg text-[#454949] leading-relaxed">
               <div className="mb-4">
-                <span className="font-extrabold text-[#454949] relative inline-block">
+                <span className="font-semibold text-[#454949] relative inline-block">
                   Five years
                   {/* Custom SVG line - replace with your own */}
                   {/* <img src="/path-to-your-svg.svg" className="absolute -bottom-2 left-0 w-20 h-1" alt="" /> */
@@ -34,7 +34,7 @@ const MainSection = () => {
               
               <div className="mb-4">
                 <span>a passion for </span>
-                <span className="text-[#454949] relative inline-block">
+                <span className="font-semibold text-[#454949] relative inline-block">
                   exceptional user experiences
                   {/* Custom SVG line - replace with your own */}
                   {/* <img src="/path-to-your-svg.svg" className="absolute -bottom-2 left-0 w-full h-1" alt="" /> */}
@@ -47,7 +47,7 @@ const MainSection = () => {
           </div>
 
           {/* Illustration Section */}
-           <div className="flex-1 flex justify-center ">
+           <div className="flex-1 flex justify-center lg:justify-end">
             <div 
               className="relative"
               onMouseEnter={() => setIsHovered(true)}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CoursesAchievementsSection = () => {
   return (
-    <section className="px-8 md:px-16 py-10">
+    <section className="px-8 md:pl-[14rem] md:pr-[12rem] py-10">
       <div className="w-full">
         <div className="max-w-6xl mx-auto">
           
