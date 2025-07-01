@@ -5,7 +5,7 @@ import '../index.css';
 
 const FooterSection = ({ title = "SOCIAL MEDIUM!", link = "" }) => {
   const handleClick = () => {
-        window.location.href = link;
+     window.open(link, '_blank');
   };
 
   return (

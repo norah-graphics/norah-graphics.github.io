@@ -19,7 +19,7 @@ const MainSection = () => {
             </h1>
             
             <div className="text-lg text-[#454949] leading-relaxed">
-              <div className="mb-4">
+              <div className="mb-1">
                 <span className="font-semibold text-[#454949] relative inline-block">
                   Five years
                   {/* Custom SVG line - replace with your own */}
@@ -32,7 +32,7 @@ const MainSection = () => {
                 <span className="ml-1">in graphic design, evolving into</span>
               </div>
               
-              <div className="mb-4">
+              <div className="mb-1">
                 <span>a passion for </span>
                 <span className="font-semibold text-[#454949] relative inline-block">
                   exceptional user experiences

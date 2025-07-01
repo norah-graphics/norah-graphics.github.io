@@ -2,17 +2,17 @@ import React from 'react';
 
 const SkillsSection = () => {
   return (
-    <section className="px-8 md:pl-[14rem] md:pr-[12rem] py-10 ">
+    <section className="px-8 md:pl-[14rem] md:pr-[12rem] py-12 ">
       <div className="w-full">
         <div className="max-w-6xl mx-auto">
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             
             {/* Key Skills Column */}
-            <div className="space-y-6">
-              <h2 className="text-xl font-semibold text-[#454949] mb-8">KEY SKILLS:</h2>
+            <div className="space-y-3">
+              <h2 className="text-xl font-semibold text-[#454949]">KEY SKILLS:</h2>
               
-              <div className="space-y-3 text-gray-700">
+              <div className="text-[#454949]">
                 <div className="flex items-center">
                   <span className="mr-3">-</span>
                   <span>UX/UI Design</span>
@@ -47,7 +47,7 @@ const SkillsSection = () => {
             {/* Vertical Divider Line */}
             <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px  transform -translate-x-1/2"></div>
             
-            <div className="space-y-6 relative">
+            <div className="space-y-3 relative">
               <h2 className="text-xl font-semibold text-[#454949] mb-8">SOFTWARE SKILLS:</h2>
               
               <div className="w-full">

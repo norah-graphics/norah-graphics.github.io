@@ -9,10 +9,10 @@ const CoursesAchievementsSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             
             {/* Courses and Certificate Column */}
-            <div className="space-y-6">
-              <h2 className="text-xl font-semibold text-[#454949] mb-8">Courses and Certificate:</h2>
+            <div className="space-y-3">
+              <h2 className="text-xl font-semibold text-[#454949]">Courses and Certificate:</h2>
               
-              <div className="space-y-3 text-[#454949]">
+              <div className=" text-[#454949]">
                 <div className="flex items-start">
                   <span className="mr-3 mt-1">-</span>
                   <span>User Experience Design Course</span>
@@ -49,11 +49,11 @@ const CoursesAchievementsSection = () => {
             </div>
             
             {/* Achievements Column */}
-            <div className="space-y-6">
-              <h2 className="text-xl font-semibold text-[#454949] mb-8">Achievements:</h2>
+            <div className="space-y-3">
+              <h2 className="text-xl font-semibold text-[#454949]">Achievements:</h2>
               
-              <div className="space-y-4 text-[#454949]">
-                <div className="space-y-1">
+              <div className="space-y-1 text-[#454949]">
+                <div className="">
                   <div className="flex items-start">
                     <span className="mr-3 mt-1">-</span>
                     <span>Health Innovation Hackathon 2025</span>
@@ -63,7 +63,7 @@ const CoursesAchievementsSection = () => {
                   </div>
                 </div>
                 
-                <div className="space-y-1">
+                <div className="">
                   <div className="flex items-start">
                     <span className="mr-3 mt-1">-</span>
                     <span>AI League 2025</span>
@@ -73,7 +73,7 @@ const CoursesAchievementsSection = () => {
                   </div>
                 </div>
                 
-                <div className="space-y-1">
+                <div className="">
                   <div className="flex items-start">
                     <span className="mr-3 mt-1">-</span>
                     <span>Industry Hackathon 2024</span>

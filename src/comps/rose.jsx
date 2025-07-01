@@ -18,7 +18,7 @@ const RoseRapsodyShowcase = () => {
           </div>
 
           {/* Right Side - Content */}
-          <div className="lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center">
+          <div className="lg:w-1/2 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
             {/* Logo */}
             <div className="mb-8 flex justify-center">
               <img src='/assets/roseLogo.svg' alt="Rose Rapsody Logo"/>
