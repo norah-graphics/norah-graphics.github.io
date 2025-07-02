@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css'
 import About from './About'
 import Home from './Projects';
-import ScrollToTop from './comps/scroll_top'; // adjust path as needed
-
+import HanaMaak from './HanaMaak/HanaMaak';
+import ScrollToTop from './comps/scroll_top'; 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +14,9 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/HanaMaak" element={<HanaMaak />} />
+
+        
         <Route path="*" element={<Home />} /> 
       </Routes>
     </BrowserRouter> 

@@ -1,9 +1,13 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const HannaRapsodyShowcase = () => {
+    const navigate = useNavigate();
+
   const handleViewCaseStudy = () => {
     // This would navigate to the case study page
-    window.open('/HanaMaak.pdf', '_blank');
+    // window.open('/HanaMaak.pdf', '_blank');
+    navigate('/HanaMaak');
   };
 
   return (
