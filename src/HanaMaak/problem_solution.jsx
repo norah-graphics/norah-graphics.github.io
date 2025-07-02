@@ -7,7 +7,7 @@ const ProblemSolutionSection = () => {
   return (
     <section className="max-w-6xl mx-auto py-10">
 
-          <div className="py-8" dir="rtl">
+      <div className="py-8" dir="rtl">
       <div className="flex flex-col md:flex-row justify-between gap-8">
         {/* Right Section - الحلول */}
         <div className="flex gap-2">
@@ -28,7 +28,7 @@ const ProblemSolutionSection = () => {
           >
 
             <div className="">
-              <h2 className="text-4xl font-bold mb-4 text-right text-white font-open-sans">المشكلات:</h2>
+              <h2 className="text-4xl font-bold mb-2 text-right text-white font-open-sans">المشكلات:</h2>
               <div className="text-sm leading-relaxed font-open-sans text-black font-regular">
                 <p>١. نسيان المواعيد الطبية وأوقات الأدوية بشكل متكرر.</p>
                 <p>٢. الإشارات التقليدية غير فعالة أو يتم تجاهلها.</p>
@@ -63,7 +63,7 @@ const ProblemSolutionSection = () => {
            
 
             <div className="">
-              <h2 className="text-4xl font-bold mb-4 text-white text-right font-open-sans">الحلول:</h2>
+              <h2 className="text-4xl font-bold mb-2 text-white text-right font-open-sans">الحلول:</h2>
               <div className=" text-sm text-black leading-relaxed  text-right font-open-sans font-regular">
                 <p>{text1} {text2}{text3}{text4}</p>
                 <p>٢. إنشاء منبه تلقائي للعلاج بناء على مكونات الوصفة وتوقيتها.</p>
@@ -80,6 +80,9 @@ const ProblemSolutionSection = () => {
         </div>
       </div>
     </div>
+
+
+    
     </section>
   
   );

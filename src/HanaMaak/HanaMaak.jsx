@@ -5,6 +5,7 @@ import HeroSection from './hero';
 import DesignThinkingSection from './creativeDesign';
 import TimelineSection from './timeline';
 import ProblemSolutionSection from './problem_solution';
+import ProjectOverview from './project_overview';
 
 const HanaMaak = () => {
   return (
@@ -14,6 +15,7 @@ const HanaMaak = () => {
     <TimelineSection/>
     <DesignThinkingSection/>
     <ProblemSolutionSection/>
+    <ProjectOverview/>
       <FooterSection
          title="SOCIAL MEDIUM!"
       link="https://linktr.ee/Norah_accounts"

@@ -52,12 +52,12 @@ const TimelineSection = () => {
           </div>
         </div>
         <div className="text-[#00A0FF] font-bold mt-2 text-2xl">تجربة المستخدم والتصميم</div>
-        <ul className="text-gray-800 text-sm leading-tight text-right mt-2 px-2">
-          <li>تصميم وايرفريم أولي للشاشات بناءً على احتياجات المستخدمين.</li>
-          <li>إجراء اختبارات تجربة المستخدم (User Testing) على النماذج الورقية أو التفاعلية.</li>
-          <li>جمع الملاحظات وتحسين التصميم بناءً عليها.</li>
-          <li>تصميم الواجهة النهائية مع مراعاة سهولة الاستخدام.</li>
-          <li>تهيئة نموذج تفاعلي (Prototype) باستخدام Figma.</li>
+        <ul className="text-gray-800 text-baseleading-tight text-center mt-2 px-2">
+          <li>تصميم وايرفريم أولي للشاشات بناءً على احتياجات المستخدمين</li>
+          <li>إجراء اختبارات تجربة المستخدم (User Testing) على النماذج الورقية أو التفاعلية</li>
+          <li>جمع الملاحظات وتحسين التصميم بناءً عليها</li>
+          <li>تصميم الواجهة النهائية مع مراعاة سهولة الاستخدام</li>
+          <li>تهيئة نموذج تفاعلي (Prototype) باستخدام Figma</li>
         </ul>
       </div>
 
@@ -73,12 +73,12 @@ const TimelineSection = () => {
           
           {/* Content div positioned absolutely to match image dimensions */}
           <div className="absolute inset-0 flex flex-col justify-end items-center pb-4">
-            <ul className="text-gray-800 text-sm leading-tight text-center px-2 mb-2">
-              <li>تحديد نوع الذكاء الاصطناعي المناسب للتطبيق.</li>
-              <li>جمع البيانات اللازمة لتدريب النموذج (مثل عادات يومية، أوقات تناول أدوية.. إلخ).</li>
-              <li>تدريب النموذج باستخدام خوارزميات مناسبة (بقيادة مهندس الذكاء الاصطناعي أو الفريق).</li>
-              <li>اختبار مبدئي للنموذج وتقييم دقته.</li>
-              <li>توثيق طريقة عمل النموذج وآلية دمجه مستقبلاً في التطبيق.</li>
+            <ul className="text-black font-open-sans text-baseleading-tight text-center px-2 mb-2 font-medium">
+              <li>تحديد نوع الذكاء الاصطناعي المناسب للتطبيق</li>
+              <li>جمع البيانات اللازمة لتدريب النموذج (مثل عادات يومية، أوقات تناول أدوية.. إلخ)</li>
+              <li>تدريب النموذج باستخدام خوارزميات مناسبة (بقيادة مهندس الذكاء الاصطناعي أو الفريق)</li>
+              <li>اختبار مبدئي للنموذج وتقييم دقته</li>
+              <li>توثيق طريقة عمل النموذج وآلية دمجه مستقبلاً في التطبيق</li>
             </ul>
             <div className="text-[#56BCC7] font-bold text-2xl">تطوير نموذج الذكاء الاصطناعي</div>
           </div>
@@ -100,12 +100,12 @@ const TimelineSection = () => {
           </div>
         </div>
         <div className="text-[#00A0FF] font-bold mt-2 text-2xl">البحث والتحليل</div>
-        <ul className="text-gray-800 text-sm leading-tight text-right mt-2 px-2">
-          <li>تحديد الفئة المستهدفة (مثل: كبار السن، أصحاب الأمراض المزمنة، مرضى العيادات).</li>
-          <li>كتابة سيناريوهات لفهم احتياجات المستخدمين.</li>
-          <li>تحليل النتائج وتحديد أهم المشكلات التي يمكن حلها بالتطبيق.</li>
-          <li>إعداد استبيانات المشروع بناءً على البيانات.</li>
-          <li>دراسة التطبيقات المشابهة وتحليلها.</li>
+        <ul className="text-gray-800 text-baseleading-tight text-center mt-2 px-2">
+          <li>تحديد الفئة المستهدفة (مثل: كبار السن، أصحاب الأمراض المزمنة، مرضى العيادات)</li>
+          <li>كتابة سيناريوهات لفهم احتياجات المستخدمين</li>
+          <li>تحليل النتائج وتحديد أهم المشكلات التي يمكن حلها بالتطبيق</li>
+          <li>إعداد استبيانات المشروع بناءً على البيانات</li>
+          <li>دراسة التطبيقات المشابهة وتحليلها</li>
         </ul>
       </div>
     </div>
