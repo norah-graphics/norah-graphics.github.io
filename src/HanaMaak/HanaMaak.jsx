@@ -6,6 +6,10 @@ import DesignThinkingSection from './creativeDesign';
 import TimelineSection from './timeline';
 import ProblemSolutionSection from './problem_solution';
 import ProjectOverview from './project_overview';
+import ResearchSection from './research_section';
+import UserInterviewSection from './userinterview_questions';
+import SurveyQuestionSection from './survey_questions';
+import ClockSection from './clock_section';
 
 const HanaMaak = () => {
   return (
@@ -16,6 +20,10 @@ const HanaMaak = () => {
     <DesignThinkingSection/>
     <ProblemSolutionSection/>
     <ProjectOverview/>
+    <ResearchSection/>
+    <UserInterviewSection/>
+    <SurveyQuestionSection/>
+    <ClockSection/>
       <FooterSection
          title="SOCIAL MEDIUM!"
       link="https://linktr.ee/Norah_accounts"
