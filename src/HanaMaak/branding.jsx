@@ -17,7 +17,7 @@ const BrandingSection = () => {
         </div>
         <div className='px-12 py-4'>
             {/* Paragraphs */}
-            <div className='text-right font-inter font-regular text-lg' dir='rtl'>
+            <div className='text-right font-inter font-regular text-xl' dir='rtl'>
             <p>
                 في زحمة الحياة، كثير ينسى نفسه، ويمكن ينسى حتى دواءه...
             </p>
@@ -44,7 +44,7 @@ const BrandingSection = () => {
                 <p>
                    يتكوّن من 3 عناصر رمزية:
                 </p>
-                <img src='/assets/hanamaak_items.svg' className='py-2 px-16'/>
+                <img src='/assets/hanamaak_items.svg' className='py-2 md:px-16'/>
             </div>
         </div>   
       </div>

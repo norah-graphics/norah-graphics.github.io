@@ -3,11 +3,11 @@ import React from 'react';
 const HanaChanceSection = () => {
   return (
     <section className="max-w-6xl mx-auto  relative">
-      <div className="min-h-screen flex items-center justify-center p-8">
+      <div className="flex items-center justify-center p-8">
         <div className="">
           {/* Gradient container with rounded corners */}
           <div 
-            className="rounded-full md:px-12 py-16  relative overflow-hidden"
+            className="rounded-full md:px-12  py-16  relative overflow-hidden"
             style={{
             background: 'linear-gradient(170deg,  rgba(0, 160, 255, 0.3)  0%, rgba(235, 240, 243, 0) 50%, rgba(64, 207, 197, 0.3) 100%)',
               borderRadius: '80px'

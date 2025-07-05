@@ -22,7 +22,7 @@ const DiagramsSections = () => {
 
         <div className="p-8">
         {sectionsData.map((section, index) => (
-            <div key={index} className="py-12">
+            <div key={index} className={`${index !== 0 ? 'py-12' : 'pb-12'}`}>
             <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-open-sans ">
                 {section.text}
             </h2>

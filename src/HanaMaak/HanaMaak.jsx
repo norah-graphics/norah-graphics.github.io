@@ -19,6 +19,7 @@ import HanaChanceSection from './chance';
 import SiteMapSection from './sitemap_section';
 import DiagramsSections from './diagrams_section';
 import BrandingSection from './branding';
+import MobileDiagramsSections from './mobile_diagrams';
 
 const HanaMaak = () => {
   return (
@@ -42,6 +43,7 @@ const HanaMaak = () => {
     <SiteMapSection/>
     <DiagramsSections/>
     <BrandingSection/>
+    <MobileDiagramsSections/>
 
       <FooterSection
          title="SOCIAL MEDIUM!"
