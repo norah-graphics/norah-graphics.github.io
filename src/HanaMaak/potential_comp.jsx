@@ -18,7 +18,7 @@ const PotentialCompetitorsSection = () => {
                 
                 <div className="space-y-3 text-[#041219] font-regular text-lg">
                 <div className="flex items-center justify-end gap-3">
-                    <span className="text-right">تطبيق يدعم اللغة العربية</span>
+                    <span className="text-right">تطبيق يدعم اللغه العربية </span>
                     <div className="w-1 h-1 bg-[#041219] rounded-full"></div>
                 </div>
                 
