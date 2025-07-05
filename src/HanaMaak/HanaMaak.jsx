@@ -10,6 +10,10 @@ import ResearchSection from './research_section';
 import UserInterviewSection from './userinterview_questions';
 import SurveyQuestionSection from './survey_questions';
 import ClockSection from './clock_section';
+import UserPersona1Section from './user_presona1';
+import UserPersona2Section from './user_persona2';
+import EmpathyMapSection from './empathy_map';
+import SwotSection from './swot_section';
 
 const HanaMaak = () => {
   return (
@@ -24,6 +28,11 @@ const HanaMaak = () => {
     <UserInterviewSection/>
     <SurveyQuestionSection/>
     <ClockSection/>
+    <UserPersona1Section/>
+    <UserPersona2Section/>
+    <EmpathyMapSection/>
+    <SwotSection/>
+
       <FooterSection
          title="SOCIAL MEDIUM!"
       link="https://linktr.ee/Norah_accounts"
