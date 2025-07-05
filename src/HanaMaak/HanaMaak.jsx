@@ -16,6 +16,9 @@ import EmpathyMapSection from './empathy_map';
 import SwotSection from './swot_section';
 import PotentialCompetitorsSection from './potential_comp';
 import HanaChanceSection from './chance';
+import SiteMapSection from './sitemap_section';
+import DiagramsSections from './diagrams_section';
+import BrandingSection from './branding';
 
 const HanaMaak = () => {
   return (
@@ -36,6 +39,9 @@ const HanaMaak = () => {
     <SwotSection/>
     <PotentialCompetitorsSection/>
     <HanaChanceSection/>
+    <SiteMapSection/>
+    <DiagramsSections/>
+    <BrandingSection/>
 
       <FooterSection
          title="SOCIAL MEDIUM!"

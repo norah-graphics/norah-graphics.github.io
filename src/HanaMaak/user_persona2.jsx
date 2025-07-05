@@ -5,7 +5,7 @@ const UserPersona2Section = () => {
     <section className='max-w-6xl mx-auto px-4 py-16 relative'>
       <div className="relative bg-white p-2 rounded-br-[3.5rem] rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-[3.5rem] border border-[#3876BF]"
         style={{
-          background: 'linear-gradient(120deg,  rgba(0, 160, 255, 0.25)  0%, rgba(235, 240, 243, 0) 50%, rgba(64, 207, 197, 0.25) 100%)'
+          background: 'linear-gradient(120deg,   rgba(64, 207, 197, 0.25)  0%, rgba(235, 240, 243, 0) 50%, rgba(0, 160, 255, 0.25) 100%)'
         }}
       >
         {/* Title Box - Top */}
