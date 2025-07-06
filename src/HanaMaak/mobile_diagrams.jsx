@@ -103,7 +103,6 @@ const MobileDiagramsSections = () => {
       </div>
             </div>
         </div>
-        <img src='/assets/sketches.svg'/>
     </section>
   );
 };

@@ -20,7 +20,8 @@ import SiteMapSection from './sitemap_section';
 import DiagramsSections from './diagrams_section';
 import BrandingSection from './branding';
 import MobileDiagramsSections from './mobile_diagrams';
-
+import NewReminderSection from './new_reminder';
+import FutureImpactSection from './future_impact_section';
 const HanaMaak = () => {
   return (
     <div className="min-h-screen bg-[#F3F3F3]  overflow-x-hidden max-w-full">
@@ -44,7 +45,8 @@ const HanaMaak = () => {
     <DiagramsSections/>
     <BrandingSection/>
     <MobileDiagramsSections/>
-
+    <NewReminderSection/>
+    <FutureImpactSection/>
       <FooterSection
          title="SOCIAL MEDIUM!"
       link="https://linktr.ee/Norah_accounts"
