@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ViewLinkButton from '../shared_comps/view_link_button';
 const FutureImpactSection = () => {
 
   return (
@@ -41,8 +41,14 @@ const FutureImpactSection = () => {
                         <li> إرسال تقارير ذكية تلقائية للأبناء أو الأطباء عن التزام بالأدوية.</li>
                         <li> دعم لغات ولهجات مختلفة لتوسيع الوصول لفئات أكثر.</li>
                         <li> تقديم الدعم العاطفي للمريض بإستخدام خدمات الذكاء الاصطناعي لمتابعة التأثير النفسي.</li>
-                    
+                        
+                         <div className="md:hidden blcok flex justify-start pt-4" > 
+                          <ViewLinkButton link="https://google.com" />
+                         </div>
+
                     </ul>
+
+                    
             </div>
             </div>
             
@@ -53,6 +59,9 @@ const FutureImpactSection = () => {
         </div>
             <div className="absolute md:top-[10rem] lg:top-[5rem] w-full md:max-w-[350px] lg:max-w-[500px] mx-auto md:left-[1rem] lg:left-[-3rem] bg-opacity-20 rounded-full md:block hidden">
                 <img src='/assets/three_phones.svg' className='w-full h-auto rounded-xl '/>
+                <div className='flex justify-center'>
+                  <ViewLinkButton link="https://google.com"/>
+                </div>
             </div>
       </div>
     </section>

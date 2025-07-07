@@ -53,3 +53,16 @@ html {
   line-height: 1;
   white-space: nowrap;
 }
+
+.chance-image-position {
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .chance-image-position {
+    top: 5rem;
+    left: -3rem;
+  }
+}

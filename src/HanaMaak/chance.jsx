@@ -31,7 +31,8 @@ const HanaChanceSection = () => {
           </div>
         </div>
          {/* Optional decorative elements */}
-            <div className="absolute  md:top-[10rem] lg:top-[5rem] w-full md:max-w-[350px] lg:max-w-[500px] mx-auto md:left-[1rem] lg:left-[-3rem] bg-opacity-20 rounded-full md:block hidden">
+            {/* <div className="absolute  md:top-[10rem] lg:top-[5rem] w-full md:max-w-[350px] lg:max-w-[500px] mx-auto md:left-[1rem] lg:left-[-3rem] bg-opacity-20 rounded-full md:block hidden"> */}
+              <div className="chance-image-position w-full md:max-w-[350px] lg:max-w-[500px] mx-auto bg-opacity-20 rounded-full md:block hidden">
                 <img src='/assets/chance.svg' className='w-full h-auto rounded-xl '/>
             </div>
       </div>
