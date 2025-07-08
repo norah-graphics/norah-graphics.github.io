@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderSection from '../comps/header';
 import FooterSection from '../comps/footer';
-import HeroSection from './hero';
+import HeroSection from '../shared_comps/hero';
 import DesignThinkingSection from './creativeDesign';
 import TimelineSection from './timeline';
 import ProblemSolutionSection from './problem_solution';
@@ -26,7 +26,7 @@ const HanaMaak = () => {
   return (
     <div className="min-h-screen bg-[#F3F3F3]  overflow-x-hidden max-w-full">
      <HeaderSection/>
-    <HeroSection/>
+    <HeroSection source="/assets/hanamaak.png" alt="hanamaak"/>
     <TimelineSection/>
     <DesignThinkingSection/>
     <ProblemSolutionSection/>

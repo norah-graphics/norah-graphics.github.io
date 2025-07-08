@@ -1,9 +1,11 @@
-import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const SmartRapsodyShowcase = () => {
+      const navigate = useNavigate();
+  
   const handleViewCaseStudy = () => {
     // This would navigate to the case study page
-    window.open('/Smart.pdf', '_blank');
+    navigate('/SmartCare');
   };
 
   return (
