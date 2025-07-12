@@ -10,6 +10,7 @@ import MarketAnalysesSection from './maket_analysis';
 import WhatMakesUsUniqueSection from './unique';
 import UserInterviewSection from './userInterview';
 import PesrsonaSection from './persona';
+import SWOTSection from './swot';
 
 const SmartCare = () => {
   return (
@@ -24,6 +25,7 @@ const SmartCare = () => {
     <WhatMakesUsUniqueSection/>
     <UserInterviewSection/>
     <PesrsonaSection/>
+    <SWOTSection/>
     
 
       <FooterSection
