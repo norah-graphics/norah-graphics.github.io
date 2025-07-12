@@ -6,6 +6,10 @@ import TimeLineSection from './timeline_section';
 import DesignThinkingSection from './designThinking';
 import ProblemsAndSolutionSection from './problemSolution';
 import ProjectOverViewGlassCard from './project_overview';
+import MarketAnalysesSection from './maket_analysis';
+import WhatMakesUsUniqueSection from './unique';
+import UserInterviewSection from './userInterview';
+import PesrsonaSection from './persona';
 
 const SmartCare = () => {
   return (
@@ -16,6 +20,10 @@ const SmartCare = () => {
     <DesignThinkingSection/>
     <ProblemsAndSolutionSection/>
     <ProjectOverViewGlassCard/>
+    <MarketAnalysesSection/>
+    <WhatMakesUsUniqueSection/>
+    <UserInterviewSection/>
+    <PesrsonaSection/>
     
 
       <FooterSection
