@@ -49,7 +49,11 @@ const SmartCarePersona1Section = () => {
         >
           <h2 className="text-[#FFFFFF] font-bold font-cairo text-3xl">Coach Ahmad</h2>
         </div>
-       <div className='md:w-3/6 w-4/5 flext'> 
+        <div className='lg:hidden'>
+        <img src='/assets/smartCare/ahmed.svg'className='' />
+
+        </div>
+       <div className='lg:w-3/6 w-4/5 flext'> 
          <p className="font-medium font-cairo text-[#041219] text-lg text-start">
           Ahmad Al-Malki is a football coach who needs a smarter way to track his players' health and prevent injuries, as manual methods and basic tools no longer meet his needs.
         </p>

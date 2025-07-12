@@ -51,7 +51,11 @@ I aspire to develop and play with the Saudi national team.
         >
           <h2 className="text-[#FFFFFF] font-bold font-cairo text-3xl">Player Youssef</h2>
         </div>
-       <div className='md:w-3/6 w-4/5 flext'> 
+          <div className='lg:hidden'>
+        <img src='/assets/smartCare/yousif.svg'className='' />
+
+        </div>
+       <div className='lg:w-3/6 w-4/5 flext'> 
          <p className="font-medium font-cairo text-[#041219] text-lg text-start">
           Youssef Al-Fahad is a football، ambitious footballer who trains hard but needs a smart way to monitor his health and avoid overtraining.
         </p>
