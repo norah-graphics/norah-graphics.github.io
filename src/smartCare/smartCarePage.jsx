@@ -11,6 +11,14 @@ import WhatMakesUsUniqueSection from './unique';
 import UserInterviewSection from './userInterview';
 import PesrsonaSection from './persona';
 import SWOTSection from './swot';
+import FlowSection from './flow';
+import WireFramesSection from './wireframes';
+import BrandingSection from './branding';
+import AppInterfaceSection from './app_interface';
+import LoginAndForgotPasswordAppInterfaceSection from './login_forgot_interface';
+import InterfaceBannerSection from './interfaceBanner';
+import AnalysisPageInterfaceSection from './analysisPageInterface';
+import FutureImpactSection from './futureImpact';
 
 const SmartCare = () => {
   return (
@@ -26,6 +34,14 @@ const SmartCare = () => {
     <UserInterviewSection/>
     <PesrsonaSection/>
     <SWOTSection/>
+    <FlowSection/>
+    <WireFramesSection/>
+    <BrandingSection/>
+    <AppInterfaceSection/>
+    <LoginAndForgotPasswordAppInterfaceSection/>
+    <InterfaceBannerSection/>
+    <AnalysisPageInterfaceSection/>
+    <FutureImpactSection/>
     
 
       <FooterSection

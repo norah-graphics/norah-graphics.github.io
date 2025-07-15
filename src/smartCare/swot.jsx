@@ -86,7 +86,7 @@ const SWOTSection = () => {
  <section className="w-full md:py-16 py-12 px-4 relative w-full max-w-6xl mx-auto p-8">
       <div className="grid grid-cols-1 md:grid-cols-3 items-start gap-2">
         {/* Left Column */}
-        <div className="flex flex-col gap-2 justify-end items-end">
+        <div className="flex flex-col gap-2 md:justify-end md:items-end items-center">
           {swotData.left.map((item, index) => (
             <SWOTBox key={index} title={item.title} points={item.points}  image={item.image} />
           ))}
@@ -98,7 +98,7 @@ const SWOTSection = () => {
         </div>
 
         {/* Right Column */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2  items-center">
           {swotData.right.map((item, index) => (
             <SWOTBox key={index} title={item.title} points={item.points} image={item.image} />
           ))}
