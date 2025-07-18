@@ -38,7 +38,7 @@ const ProjectOverViewSection = () => {
   ];
 
   const ArrowIcon = () => (
-    <img src="/assets/rose/arrow_left.svg"   className="sm:-rotate-90 md:rotate-0 sm:py-8 md:py-0"
+    <img src="/assets/rose/arrow_left.svg"   className="-rotate-90 sm:-rotate-90 md:rotate-0  py-8 md:py-0"
 />
     
   );
@@ -58,19 +58,19 @@ const ProjectOverViewSection = () => {
       {/* Screens */}
       <div className="text-center">
         <div className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold font-inter text-[#6A1A7D]">60+</div>
-        <div className="text-sm md:text-base font-medium text-[#303030] font-inter">Screens</div>
+        <div className="text-base font-medium text-[#303030] font-inter">Screens</div>
       </div>
 
       {/* Timeline */}
       <div className="text-center">
         <div className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#6A1A7D] font-inter">3 Months</div>
-        <div className="text-sm md:text-base font-medium text-[#303030] font-inter">TimeLine</div>
+        <div className="text-base font-medium text-[#303030] font-inter">TimeLine</div>
       </div>
 
       {/* Project */}
       <div className="text-center">
         <div className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#6A1A7D] font-inter">Project</div>
-        <div className="text-sm md:text-base font-medium text-[#303030] font-inter">Mopile/Landing Page/Dash Bord</div>
+        <div className="text-base font-medium text-[#303030] font-inter">Mopile/Landing Page/Dash Bord</div>
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@ const ProjectOverViewSection = () => {
             </div>
             
             {/* Title */}
-            <h3 className="text-lg font-extrabold text-[#6A1A7D] font-zain mb-2">
+            <h3 className="text-xl md:text-xl lg:text-2xl font-extrabold text-[#6A1A7D] font-zain mb-2">
             {steps[0].title}
             </h3>
             
@@ -108,7 +108,7 @@ const ProjectOverViewSection = () => {
             {/* Description */}
             <div className="space-y-1">
             {steps[0].description.map((desc, descIndex) => (
-                <p key={descIndex} className="text-sm text-gray-600">
+                <p key={descIndex} className="text-base md:text-lg lg:text-xl text-[#706D6D]">
                 {desc}
                 </p>
             ))}
@@ -126,7 +126,7 @@ const ProjectOverViewSection = () => {
             </div>
             
             {/* Title */}
-            <h3 className="text-lg md:text-xl font-extrabold text-[#6A1A7D] font-zain mb-2">
+            <h3 className="text-xl md:text-xl lg:text-2xl font-extrabold text-[#6A1A7D] font-zain mb-2">
             {steps[1].title}
             </h3>
             
@@ -135,7 +135,7 @@ const ProjectOverViewSection = () => {
             {/* Description */}
             <div className="space-y-1">
             {steps[1].description.map((desc, descIndex) => (
-                <p key={descIndex} className="text-sm text-gray-600">
+                <p key={descIndex} className="text-base md:text-lg lg:text-xl text-[#706D6D]">
                 {desc}
                 </p>
             ))}
@@ -153,7 +153,7 @@ const ProjectOverViewSection = () => {
             </div>
             
             {/* Title */}
-            <h3 className="text-lg font-extrabold text-[#6A1A7D] font-zain mb-2">
+            <h3 className="text-xl md:text-xl lg:text-2xl font-extrabold text-[#6A1A7D] font-zain mb-2">
             {steps[2].title}
             </h3>
             
@@ -162,7 +162,7 @@ const ProjectOverViewSection = () => {
             {/* Description */}
             <div className="space-y-1">
             {steps[2].description.map((desc, descIndex) => (
-                <p key={descIndex} className="text-sm text-gray-600">
+                <p key={descIndex} className="text-base md:text-lg lg:text-xl text-[#706D6D]">
                 {desc}
                 </p>
             ))}
@@ -180,7 +180,7 @@ const ProjectOverViewSection = () => {
             </div>
             
             {/* Title */}
-            <h3 className="text-lg font-extrabold text-[#6A1A7D] font-zain mb-2">
+            <h3 className="text-xl md:text-xl lg:text-2xl font-extrabold text-[#6A1A7D] font-zain mb-2">
             {steps[3].title}
             </h3>
             
@@ -189,7 +189,7 @@ const ProjectOverViewSection = () => {
             {/* Description */}
             <div className="space-y-1">
             {steps[3].description.map((desc, descIndex) => (
-                <p key={descIndex} className="text-sm text-gray-600">
+                <p key={descIndex} className="text-base md:text-lg lg:text-xl text-[#706D6D]">
                 {desc}
                 </p>
             ))}
@@ -208,14 +208,14 @@ const ProjectOverViewSection = () => {
             </div>
             
             {/* Title */}
-            <h3 className="text-lg font-extrabold text-[#6A1A7D] font-zain mb-2">
+            <h3 className="text-xl md:text-xl lg:text-2xl font-extrabold text-[#6A1A7D] font-zain mb-2">
             {steps[4].title}
             </h3>
                         
             {/* Description */}
             <div className="space-y-1">
             {steps[4].description.map((desc, descIndex) => (
-                <p key={descIndex} className="text-sm text-gray-600">
+                <p key={descIndex} className="text-base md:text-lg lg:text-xl text-[#706D6D]">
                 {desc}
                 </p>
             ))}
