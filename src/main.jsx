@@ -7,6 +7,7 @@ import Home from './Projects';
 import HanaMaak from './HanaMaak/HanaMaak';
 import ScrollToTop from './comps/scroll_top'; 
 import SmartCare from './smartCare/smartCarePage';
+import RosePage from './rose/rosePage';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,9 @@ createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/HanaMaak" element={<HanaMaak />} />
         <Route path="/SmartCare" element={<SmartCare />} />
+        <Route path="/Rose" element={<RosePage />} />
+
+        
 
 
         
