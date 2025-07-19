@@ -5,14 +5,14 @@ const ProblemSolutionSection = () => {
 
     const solutions=["القدرة على طلب الورود من المحلات القريبة من المنزل","التواصل السريع مع محل الورد ومناقشه الطلب المراد", "الحصول على باقة الورد المختارة دون تأخير او وصول شكل مختلف","القدره على الدفع إلكتروني للعربون بعد اعتماد الطلب مع موظف المحل"];
     return (
-    <section className="w-full flex items-center justify-center pt-[5.7rem] md:pt-[4rem]">
+    <section className="px-8  md:px-[10rem] py-8 md:py-12">
     <div className='flex-col'>
         {/* problems */}
       <div className=''>
           <div className='border-l-[6px] border-r-[6px] border-[#D14D72] px-4 w-fit flex justify-center items-center mx-auto'>
             <p className='text-[#6A1A7D] font-zain font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl'>Problem المشاكل</p>
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 " dir='rtl'>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 " dir='rtl'>
             {problems.map((problem, index) => (
             <div class="relative flex justify-center items-center">
             {/*Background SVG */}
@@ -31,7 +31,7 @@ const ProblemSolutionSection = () => {
           <div className='border-l-[6px] border-r-[6px] border-[#D14D72] px-4 w-fit flex justify-center items-center mx-auto'>
             <p className='text-[#6A1A7D] font-zain font-bold text-2xl sm:text-2xl md:text-2xl lg:text-3xl'>Solutions الحلـــــول</p>
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 " dir='rtl'>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 " dir='rtl'>
             {solutions.map((solution, index) => (
             <div class="relative flex justify-center items-center">
             {/*Background SVG */}

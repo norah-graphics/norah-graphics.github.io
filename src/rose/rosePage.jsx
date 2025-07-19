@@ -5,6 +5,8 @@ import HeroSection from '../shared_comps/hero';
 import ProjectOverViewSection from './project_overview';
 import SideCircleLeft from "../comps/side_circle_left";
 import ProblemSolutionSection from './problem_solution';
+import ResearchGoalsSection from './research_goals';
+import ResearchQuestionSection from './research_question';
 
 
 const RosePage = () => {
@@ -14,6 +16,8 @@ const RosePage = () => {
         <HeroSection source="/assets/rose/roseheader.svg" alt="rose"/>
         <ProjectOverViewSection/>
         <ProblemSolutionSection/>
+        <ResearchGoalsSection/>
+        <ResearchQuestionSection/>
    
     
 
