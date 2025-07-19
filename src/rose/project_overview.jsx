@@ -43,10 +43,13 @@ const ProjectOverViewSection = () => {
     
   );
 
-
   return (
 
 <section className="w-full md:py-16 py-12 relative w-full  ">
+<div className="pointer-events-none overflow-hidden absolute -translate-y-1/2 z-0  left-[-45rem] top-[20rem]">
+          <img className="w-30 h-30 "src='/assets/circle.svg'/>
+
+  </div>  
 <div className="relative w-full flex justify-center">
   {/* Container for pink box and purple line */}
   <div className="relative w-full flex justify-center">
@@ -79,7 +82,7 @@ const ProjectOverViewSection = () => {
 {/* White box below and behind pink box */}
 <div className="px-6">
     <div className="relative -mt-5 w-full bg-white border border-[#6A1A7D] rounded-3xl z-0 px-4 pt-8" >
-    <div className="flex justify-between   border-l-[3px] border-r-[4px] border-[#D14D72]">
+    <div className="flex justify-between   border-l-[6px] border-r-[6px] border-[#D14D72]">
         <p className="text-[#6A1A7D] font-zain font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl mx-2">
             Design process
         </p>
