@@ -7,6 +7,8 @@ import ProblemSolutionSection from './problem_solution';
 import ResearchGoalsSection from './research_goals';
 import ResearchQuestionSection from './research_question';
 import InterviewQuestionsSection from './interview_questions';
+import SurveyQuestionsSection from './survey_questions';
+import CompetitorsAnalysisSection from './competitors_analysis';
 
 
 const RosePage = () => {
@@ -19,6 +21,8 @@ const RosePage = () => {
         <ResearchGoalsSection/>
         <ResearchQuestionSection/>
         <InterviewQuestionsSection/>
+        <SurveyQuestionsSection/>
+        <CompetitorsAnalysisSection/>
    
     
 
