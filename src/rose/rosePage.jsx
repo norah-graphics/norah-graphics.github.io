@@ -3,10 +3,10 @@ import HeaderSection from '../comps/header';
 import FooterSection from '../comps/footer';
 import HeroSection from '../shared_comps/hero';
 import ProjectOverViewSection from './project_overview';
-import SideCircleLeft from "../comps/side_circle_left";
 import ProblemSolutionSection from './problem_solution';
 import ResearchGoalsSection from './research_goals';
 import ResearchQuestionSection from './research_question';
+import InterviewQuestionsSection from './interview_questions';
 
 
 const RosePage = () => {
@@ -18,6 +18,7 @@ const RosePage = () => {
         <ProblemSolutionSection/>
         <ResearchGoalsSection/>
         <ResearchQuestionSection/>
+        <InterviewQuestionsSection/>
    
     
 

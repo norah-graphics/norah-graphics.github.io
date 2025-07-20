@@ -8,7 +8,7 @@ const ResearchGoalsSection = ({source,alt}) => {
         <div className='flex justify-end'>
             <div className='bg-gradient-to-l from-[rgba(255,196,213,1)] to-transparent px-8 py-4 w-[80%]' dir='rtl'>
                 <p className='font-bold font-inter text-[#6A1A7D] text-xl'>هدف البحث :</p>
-                <ul className="font-extrabold font-zain text-[#000000] text-right text-sm sm:text-base md:text-lg space-y-1 rtl" dir='rtl'>
+                <ul className="font-extrabold font-zain text-[#757575] text-right text-sm sm:text-base md:text-lg space-y-1 rtl" dir='rtl'>
                     <li>• جمع التجارب من المشاركين ومستخدمين تطبيقات توصيل الورد</li>
                     <li>• معرفة مدى اهتمام المشاركين في وجود تطبيق يوفر التواصل المباشر من متاجر الورود</li>
                     <li>• التحقق من فعالية التطبيق مع اهداف المستخدمين الإعتيادية عند الرغبة في شراء الهدايا</li>
