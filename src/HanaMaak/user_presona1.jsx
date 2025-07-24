@@ -69,7 +69,7 @@ const UserPersona1Section = () => {
           {/* Left Text Content - Shows after image on mobile, left on desktop */}
           <div className="lg:w-2/3 w-full space-y-6 lg:order-1" dir='rtl'>
             <div>
-              <h2 className="font-bold font-inter text-3xl text-[#3876BF]">نبذة عن ندي:</h2>
+              <h2 className="font-bold font-inter text-3xl text-[#3876BF]">نبذة عن ندى:</h2>
               <p className="font-medium font-inter text-[#041219] text-lg">
                 فتاة في عشريناتها تعمل مصممة ازياء ، ام محبة لطفلين ،لديها شغف كبير في الأزياء وكل مايخص الأزياء ، تهتم بعائلتها بشكل كبير وتحاول توازي بين العائلة والعمل وذلك اثر على غذائها ، فتحتاج الى تناول فيتامينات تساعدها على البقاء بصحة جيدة.
               </p>

@@ -9,7 +9,9 @@ import ResearchQuestionSection from './research_question';
 import InterviewQuestionsSection from './interview_questions';
 import SurveyQuestionsSection from './survey_questions';
 import CompetitorsAnalysisSection from './competitors_analysis';
-
+import UserPersona1Section from './user_persona1';
+import UserPersona2Section from './user_persona2';
+import EmpathyMapSection from './empathy_map';
 
 const RosePage = () => {
   return (
@@ -23,6 +25,9 @@ const RosePage = () => {
         <InterviewQuestionsSection/>
         <SurveyQuestionsSection/>
         <CompetitorsAnalysisSection/>
+        <UserPersona1Section/>
+        <EmpathyMapSection/>
+        <UserPersona2Section/>
    
     
 

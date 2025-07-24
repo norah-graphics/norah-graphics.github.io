@@ -3,7 +3,7 @@ import '../index.css'
 const ResearchQuestionSection = ({source,alt}) => {
   return (
     <section className="py-8 md:py-16">
-        <div className='gradient-topleft-bottomright w-full  md:mt-[8rem] py-4'>
+        <div className='gradient-rose-box w-full  md:mt-[8rem] py-4'>
            {/* first box */}
            <div className='flex my-8 items-center'>
                 <div className='hidden md:flex flex-1 justify-center items-center'>

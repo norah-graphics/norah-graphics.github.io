@@ -69,7 +69,7 @@ html {
   }
 }
 
-.gradient-topleft-bottomright {
+.gradient-rose-box {
   /* opacity: 0.2; */
   background: linear-gradient(135deg, 
     rgba(113, 29, 124, 0.10) 2%,      /* 0.50 * 0.2 = 0.10 */
@@ -80,3 +80,10 @@ html {
   );
 }
 
+.dashed-divider-vertical {
+  border-left: 2px dashed #D14D72;
+}
+
+.dashed-divider-horizontal {
+  border-top: 2px dashed #D14D72;
+}

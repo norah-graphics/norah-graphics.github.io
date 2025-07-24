@@ -38,7 +38,7 @@ const SurveyQuestionsSection = () => {
 ];
   return (
  <section className="w-full md:py-16 py-12 md:px-12 px-6 relative w-full mx-auto p-8">
-    <div className='flex-col font-zain justify-center items-center gradient-topleft-bottomright border border-[#D14D72] border-[3.5px] rounded-3xl py-8'>
+    <div className='flex-col font-zain justify-center items-center gradient-rose-box border border-[#D14D72] border-[3.5px] rounded-3xl py-8'>
          {/* title */}
        <div className=' justify-center items-center text-center'>
          <p className='font-merriweather text-[#6A1A7D] font-bold text-3xl md:text-4xl '>اسئلة الإستبيان</p>
