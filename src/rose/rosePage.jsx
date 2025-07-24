@@ -12,6 +12,7 @@ import CompetitorsAnalysisSection from './competitors_analysis';
 import UserPersona1Section from './user_persona1';
 import UserPersona2Section from './user_persona2';
 import EmpathyMapSection from './empathy_map';
+import SwotSection from './swot';
 
 const RosePage = () => {
   return (
@@ -28,6 +29,7 @@ const RosePage = () => {
         <UserPersona1Section/>
         <EmpathyMapSection/>
         <UserPersona2Section/>
+        <SwotSection/>
    
     
 
