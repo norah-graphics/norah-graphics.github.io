@@ -15,6 +15,7 @@ import EmpathyMapSection from './empathy_map';
 import SwotSection from './swot';
 import UserFlowSection from './userflow';
 import SitemapSection from './sitemap';
+import DesignSystemSection from './design_system';
 
 const RosePage = () => {
   return (
@@ -33,8 +34,8 @@ const RosePage = () => {
         <UserPersona2Section/>
         <SwotSection/>
         <SitemapSection/>
-
         <UserFlowSection/>
+        <DesignSystemSection/>
    
     
 
