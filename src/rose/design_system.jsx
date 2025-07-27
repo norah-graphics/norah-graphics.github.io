@@ -4,7 +4,7 @@ const DesignSystemSection = () => {
     const images = Array.from({ length: 7 }, (_, i) => `/assets/rose/sketch${i + 1}.svg`);
 
     return (
-    <section className='max-w-7xl mx-auto px-4 py-16 relative'>
+    <section className='max-w-7xl mx-auto px-4 pt-16 relative'>
         <div className="w-full mx-auto gradient-rose-box py-8 flex  flex-col justify-center items-center" dir="rtl">
             <div className="w-full flex flex-col justify-center items-center">
                 <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2">نظام التصميم</h2>

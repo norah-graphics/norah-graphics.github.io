@@ -16,6 +16,7 @@ import SwotSection from './swot';
 import UserFlowSection from './userflow';
 import SitemapSection from './sitemap';
 import DesignSystemSection from './design_system';
+import AppInterfaceSection from './app_interfaces';
 
 const RosePage = () => {
   return (
@@ -36,6 +37,7 @@ const RosePage = () => {
         <SitemapSection/>
         <UserFlowSection/>
         <DesignSystemSection/>
+        <AppInterfaceSection/>
    
     
 
