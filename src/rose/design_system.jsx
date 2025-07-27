@@ -1,6 +1,9 @@
 const DesignSystemSection = () => {
     const icons=["trash.svg","home.svg","heart.svg","settings.svg","cart.svg","grid.svg","g_translate.svg","rose_icon.svg","share.svg","add_to_cart.svg"];
-  return (
+//   const sketches=[1,2,3,4,5,6,7];
+    const images = Array.from({ length: 7 }, (_, i) => `/assets/rose/sketch${i + 1}.svg`);
+
+    return (
     <section className='max-w-7xl mx-auto px-4 py-16 relative'>
         <div className="w-full mx-auto gradient-rose-box py-8 flex  flex-col justify-center items-center" dir="rtl">
             <div className="w-full flex flex-col justify-center items-center">
@@ -142,14 +145,85 @@ const DesignSystemSection = () => {
 
                 </div>                              
             </div>
-
+            {/* Mobile/PC grid */}
             <div className="w-full flex flex-col">
                  {/* Title Part */}
                 <div className="w-full flex flex-col justify-center items-center bg-white border border-[#D14D72] border-2 my-4">
                     <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2">Mobile/Web Grid</h2>
                 </div> 
+                <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-4 items-center">
+                    <img src="/assets/rose/pc_grid.svg"/>
+                    <img src="/assets/rose/phone_grid.svg"/>
+                </div>
             
             </div>
+            {/* sketches */}
+            <div className="w-full flex flex-col bg-white relative ">
+                {/* Lines... */}
+                <div className="flex flex-row justify-between">
+                    {/* Right line */}
+                    <div className="h-full space-x-2 flex">
+                        <div className="w-[3px] h-[100vh] bg-[#D14D72] ml-2"></div>
+                        <div className="w-[3px] h-[80vh] bg-[#6A1A7D]"></div>
+                        <div className="w-[3px] h-[70vh] bg-[#D14D72]"></div>
+                    </div>
+                    
+                    
+                    {/* Body */}
+                    <div className="py-6">
+                        <div className="py-6 flex flex-col items-center justify-center">
+                            <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2">النمــاذج الورقية</h2>
+                            <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2"> Sketchs</h2>
+                        </div>
+                    
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+                            {images.map((src, index) => {
+                                // If it's the last item and the number of items is odd
+                                const isLast = index === images.length - 1;
+                                const isOdd = images.length % 2 !== 0;
+
+                                return (
+                                <div
+                                    key={index}
+                                    className={
+                                    isLast && isOdd
+                                        ? 'md:col-span-2 flex justify-center' // Center the last item on medium screens
+                                        : ''
+                                    }
+                                >
+                                    <img src={src} alt={`Sketch ${index + 1}`} className="w-full" />
+                                </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                    {/* left line */}
+                     <div className="h-full flex">
+                        <div className="w-[3px] h-[70vh] bg-[#D14D72] ml-2"></div>
+                        <div className="w-[3px] h-[80vh] bg-[#6A1A7D]"></div>
+                        <div className="w-[3px] h-[100vh] bg-[#D14D72] mr-2"></div>
+                    </div>
+                </div>
+                
+
+            </div>
+            {/* wireframe */}
+             <div className="w-full flex flex-col gradient-rose-box ">
+
+                <div className="py-6">
+                        <div className="py-6 flex flex-col items-center justify-center">
+                            <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2"> التخطيط الشبكي</h2>
+                            <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2"> Mid-Fidelity Wireframe</h2>
+                        </div>
+                </div>
+                <div className="w-full grid grid-cols-1 gap-6 justify-items-center">
+                    <img src="/assets/rose/wireframe1.svg"/>
+                    <img src="/assets/rose/wireframe2.svg"/>
+                    <img src="/assets/rose/wireframe3.svg"/>
+                </div>
+
+             </div>
+
             
 
            
