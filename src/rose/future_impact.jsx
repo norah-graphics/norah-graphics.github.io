@@ -4,7 +4,7 @@ const FutureImpactsSection = () => {
     <section className='max-w-7xl mx-auto px-4 py-16 relative'>
         <div className="font-zain text-[#D14D72] flex flex-col w-full items-start" dir="rtl">
             <div className="w-full md:w-[70%]  lg:w-[60%]">
-                <p className="md:text-3xl text-2xl font-extrabold pb-2">The Future Impact الأثر المستقبلي لتطبيق  ــــ</p>
+                <p className="md:text-3xl text-2xl font-extrabold pb-2 text-end" dir="ltr" >The Future Impact الأثر المستقبلي لتطبيق  ــــ</p>
                 <p className="text-[#6A1A7E] font-extrabold md:text-2xl text-xl">1. على مستوى السوق (الاقتصادي):</p>
                 <p className="text-[#D14D72] font-normal md:text-2xl text-xl">تحفيز قطاع الزهور المحلي:</p>
                 <ul className="text-[#D14D72] font-normal md:text-2xl text-xl pr-3">
