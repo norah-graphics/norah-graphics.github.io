@@ -17,7 +17,8 @@ import UserFlowSection from './userflow';
 import SitemapSection from './sitemap';
 import DesignSystemSection from './design_system';
 import AppInterfaceSection from './app_interfaces';
-
+import LandingPagesSection from './landing_pages';
+import DashboardSection from './dashboard';
 const RosePage = () => {
   return (
     <div className="min-h-screen bg-[#F3F3F3]  overflow-x-hidden max-w-full">
@@ -38,6 +39,8 @@ const RosePage = () => {
         <UserFlowSection/>
         <DesignSystemSection/>
         <AppInterfaceSection/>
+        <LandingPagesSection/>
+        <DashboardSection/>
    
     
 
