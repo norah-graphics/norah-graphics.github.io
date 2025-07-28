@@ -16,7 +16,7 @@ import React from 'react';
           {/* Research Question */}
           <div className="mb-6">
             <h2 className="text-4xl font-bold text-[#43B7FC] mb-2 font-open-sans">سؤال البحث :</h2>
-            <ul className="text-[#323232] font-open-sans font-regular text-lg">
+            <ul className="text-[#323232] font-open-sans font-norma text-lg">
               <li>• هل يحتاج المريض الى تطبيق مساعد له في جدولة الأدوية والأنشطة المستقبلية قبل الموعد؟</li>
               <li>• هل يساعد التطبيق الأفراد من انتشارها في الأمور الحياتية والمهنية ؟</li>
             </ul>
@@ -25,7 +25,7 @@ import React from 'react';
           {/* Target Audience */}
           <div>
             <h2 className="text-4xl font-bold text-[#43B7FC] mb-2">الفئة المستهدفة :</h2>
-            <ul className="text-[#323232] font-regular text-lg">
+            <ul className="text-[#323232] font-norma text-lg">
               <li>• كبار السن الذين يعانون من أمراض مزمنة</li>
               <li>• الآباء الأمهات ومقدمي الرعاية الذين يعانون صحة أطفال أو أفراد الأسرة</li>
               <li>• الأشخاص المسلمون الذين يقومون بتناول معادلات غذائية</li>
