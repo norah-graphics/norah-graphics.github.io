@@ -38,14 +38,13 @@ const ChatBoxComponent = () => {
 
         {/* Main Content Box */}
         <div className="bg-[#D9D9D980] rounded-b-2xl rounded-t-none px-8 py-6 shadow-lg border border-[#454949] border-t-0 cursor-pointer transition-all duration-300">
-           <div className="h-[7rem] md:h-[8rem] flex items-center justify-center overflow-hidden">
-            <h2 className="leading-none text-[6rem] md:text-[5rem] font-medium text-[#45494980] text-center
-            tracking-wide font-jomhuria transition-all duration-300 ease-in-out
-            group-hover:text-[7rem] md:group-hover:text-[7rem] group-hover:text-[#454949]">
+           <div className="min-h-[8rem] md:min-h-[7rem] flex items-center justify-center">
+            <h2 className="leading-none text-[4rem] md:text-[5rem] font-medium text-[#45494980] text-center
+             tracking-wide font-jomhuria transition-all duration-300
+             group-hover:text-[5rem] md:group-hover:text-[7rem] group-hover:text-[#454949]">
               Get in touch
             </h2>
           </div>
-
           
           {/* Email Button - Hidden by default, shows on hover */}
           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center">

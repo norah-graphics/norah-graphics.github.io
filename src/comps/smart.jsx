@@ -10,9 +10,14 @@ const SmartRapsodyShowcase = () => {
 
   return (
     <div className=" flex items-center justify-center p-12">
-      <div className="max-w-6xl w-full rounded-3xl overflow-hidden">
+      <div className="max-w-6xl w-full rounded-3xl overflow-visible">
         <div className="flex flex-col lg:flex-row">
-            
+            {/* Only shown in mobile */}
+            <div className="lg:w-1/2 flex items-center justify-center p-8 md:hidden block">
+            <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500 md:p-8 lg:p-0">
+              <img src='/assets/smartApp.svg' alt="Smart App"/>
+            </div>
+          </div>
           {/* Left Side */}
  <div className="lg:w-1/2 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
             {/* Logo */}
@@ -59,7 +64,7 @@ const SmartRapsodyShowcase = () => {
          
 
           {/* Right Side  */}
-           <div className="lg:w-1/2 flex items-center justify-center p-8">
+           <div className="lg:w-1/2 flex items-center justify-center p-8 md:block hidden">
             <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500">
               <img src='/assets/smartApp.svg' alt="Smart App"/>
             </div>

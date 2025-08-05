@@ -12,11 +12,11 @@ const HannaRapsodyShowcase = () => {
 
   return (
     <div className=" flex items-center justify-center  p-12">
-      <div className="max-w-6xl w-full rounded-3xl overflow-hidden">
+      <div className="max-w-6xl w-full rounded-3xl overflow-visible">
         <div className="flex flex-col lg:flex-row">
           {/* Left Side - SVG Image Placeholder */}
           <div className="lg:w-1/2 flex items-center justify-center p-8">
-            <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500">
+            <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500 md:p-8 lg:p-0">
               <img src='/assets/hanaApp.svg' alt="hana App"/>
             </div>
           </div>
