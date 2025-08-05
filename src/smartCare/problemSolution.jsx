@@ -5,7 +5,7 @@ const ProblemsAndSolutions = () => {
     <div className="w-full md:py-16 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Desktop Layout */}
-        <div className='md:min-h-[100vh]' >
+        <div className='lg:min-h-[85vh] md:min-h-[100vh]' >
     <div className="hidden md:block relative" >
           {/* Problems Section - 3/4 width */}
           <div className="w-1/2">

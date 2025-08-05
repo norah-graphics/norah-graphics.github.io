@@ -38,6 +38,7 @@ const SmartCare = () => {
     <WireFramesSection/>
     <BrandingSection/>
     <AppInterfaceSection/>
+    
     <LoginAndForgotPasswordAppInterfaceSection/>
     <InterfaceBannerSection/>
     <AnalysisPageInterfaceSection/>

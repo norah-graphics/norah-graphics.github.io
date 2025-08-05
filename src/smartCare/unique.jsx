@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatMakesUsUniqueSection = () => {
   return (
- <section className="w-full md:py-16 py-12 px-4 relative w-full max-w-6xl mx-auto p-8">
+ <section className="w-full md:pb-16 pb-12 px-4 relative w-full max-w-6xl mx-auto p-8">
      {/* list text */}
     <div className='flex justify-center'>
         <div className='md:w-[70%]'>
