@@ -9,7 +9,7 @@ const SmartRapsodyShowcase = () => {
   };
 
   return (
-    <div className=" flex items-center justify-center p-12">
+    <div className="flex items-center justify-center md:py-12 py-8 px-12">
       <div className="max-w-6xl w-full rounded-3xl overflow-visible">
         <div className="flex flex-col lg:flex-row">
             {/* Only shown in mobile */}
@@ -64,7 +64,7 @@ const SmartRapsodyShowcase = () => {
          
 
           {/* Right Side  */}
-           <div className="lg:w-1/2 flex items-center justify-center p-8 md:block hidden">
+           <div className="lg:w-1/2 flex items-center justify-center p-8 md:flex hidden">
             <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500">
               <img src='/assets/smartApp.svg' alt="Smart App"/>
             </div>

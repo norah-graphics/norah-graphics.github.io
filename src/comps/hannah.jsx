@@ -11,7 +11,7 @@ const HannaRapsodyShowcase = () => {
   };
 
   return (
-    <div className=" flex items-center justify-center  p-12">
+    <div className="flex items-center justify-center md:py-12 py-8 px-12">
       <div className="max-w-6xl w-full rounded-3xl overflow-visible">
         <div className="flex flex-col lg:flex-row">
           {/* Left Side - SVG Image Placeholder */}

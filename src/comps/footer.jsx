@@ -9,7 +9,7 @@ const FooterSection = ({ title = "SOCIAL MEDIUM!", link = "" }) => {
   };
 
   return (
-    <footer className="relative md:pl-[14rem] md:pr-[12rem] py-12 overflow-hidden linear-bg">
+    <footer className="relative md:px-[12rem] px-6 py-12 overflow-hidden linear-bg">
       {/* Background SVG Placeholder */}
       <div className="absolute inset-0 opacity-30">
         {/* Optional background SVG or gradient */}
