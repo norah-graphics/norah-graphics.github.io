@@ -24,7 +24,7 @@ import NewReminderSection from './new_reminder';
 import FutureImpactSection from './future_impact_section';
 const HanaMaak = () => {
   return (
-    <div className="min-h-screen bg-[#F3F3F3]  overflow-x-hidden max-w-full">
+    <div className="min-h-screen bg-[#F3F3F3] font-sans overflow-x-hidden max-w-full" style={{ fontFamily: 'Open Sans, sans-serif' }}>
      <HeaderSection/>
     <HeroSection source="/assets/hanamaak.png" alt="hanamaak"/>
     <TimelineSection/>

@@ -50,7 +50,7 @@ const NewReminderSection = () => {
           </div>
         ))}
             </div>
-             <h2 className="text-3xl font-regular text-center text-[#40CFC4] font-open-sans ">
+             <h2 className="text-3xl font-regular text-center text-[#40CFC4] font-noto-sans ">
                تجربة خدمة منبة تذكيري ذكي للأودية الطبية
             </h2>
 
@@ -61,7 +61,7 @@ const NewReminderSection = () => {
                       
                       {/* <!-- Right text (Arabic) --> */}
                       <div class="flex-1 text-right">
-                          <div class="text-[#01A0FF] font-extrabold text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-open-sans">
+                          <div class="text-[#01A0FF] font-extrabold text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-noto-sans">
                               <div>نقـــــــرات</div>
                               <div class="mt-1">لإتمـــــــام</div>
                               <div class="mt-1">لإتمـــــــام</div>
@@ -72,14 +72,14 @@ const NewReminderSection = () => {
                       <div class="flex-shrink-0 mx-4 sm:mx-8 flex items-center h-full">
   <div class="text-[20vh] sm:text-[15vh] lg:text-[18vh] xl:text-[21vh]
               leading-none bg-gradient-to-b from-[#40CEC4] to-[#01A0FF]  from-75% to-100%
-              bg-clip-text text-transparent font-black select-none font-open-sans">
+              bg-clip-text text-transparent font-black select-none font-noto-sans">
     5
   </div>
 </div>
                       
                       {/* <!-- Left text (Arabic) --> */}
                       <div class="flex-1 text-left">
-                          <div class="text-[#01A0FF] font-extrabold text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-open-sans">
+                          <div class="text-[#01A0FF] font-extrabold text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-noto-sans">
                               <div>لبناء تجـربة</div>
                               <div class="mt-1">استخـــــــدام</div>
                               <div class="mt-1">ســلســـــــة</div>
@@ -115,7 +115,7 @@ const NewReminderSection = () => {
           </div>
         ))}
             </div>
-             <h2 className="text-3xl font-regular text-center text-[#01A0FF] font-open-sans ">
+             <h2 className="text-3xl font-regular text-center text-[#01A0FF] font-noto-sans ">
                تجربة خدمة منبة تذكيري ذكي للمواعيد الطبية عن طريق التسجيل الصوتي
             </h2>
 
@@ -144,7 +144,7 @@ const NewReminderSection = () => {
           </div>
         ))}
             </div>
-             <h2 className="md:text-3xl font-regular text-center text-[#01A0FF] font-open-sans ">
+             <h2 className="md:text-3xl font-regular text-center text-[#01A0FF] font-noto-sans ">
              ربط المستخدم مع الذكاء الإصطناعي (الرفيق الذكي) بإنسجام مثالي عن طريق اختيار
 الشخصية المرغوب التحدث معها
             </h2>

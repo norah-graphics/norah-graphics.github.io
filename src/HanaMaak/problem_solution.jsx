@@ -28,8 +28,8 @@ const ProblemSolutionSection = () => {
           >
 
             <div className="">
-              <h2 className="text-4xl font-bold mb-2 text-right text-white font-open-sans">المشكلات:</h2>
-              <div className="text-sm leading-relaxed font-open-sans text-black font-regular">
+              <h2 className="text-4xl font-bold mb-2 text-right text-white font-noto-sans">المشكلات:</h2>
+              <div className="text-sm leading-relaxed font-noto-sans text-black font-regular">
                 <p>١. نسيان المواعيد الطبية وأوقات الأدوية بشكل متكرر.</p>
                 <p>٢. الإشارات التقليدية غير فعالة أو يتم تجاهلها.</p>
                 <p>٣. صعوبة استخدام التطبيقات الحديثة لدى كبار السن.</p>
@@ -63,8 +63,8 @@ const ProblemSolutionSection = () => {
            
 
             <div className="">
-              <h2 className="text-4xl font-bold mb-2 text-white text-right font-open-sans">الحلول:</h2>
-              <div className=" text-sm text-black leading-relaxed  text-right font-open-sans font-regular">
+              <h2 className="text-4xl font-bold mb-2 text-white text-right font-noto-sans">الحلول:</h2>
+              <div className=" text-sm text-black leading-relaxed  text-right font-noto-sans font-regular">
                 <p>{text1} {text2}{text3}{text4}</p>
                 <p>٢. إنشاء منبه تلقائي للعلاج بناء على مكونات الوصفة وتوقيتها.</p>
                 <p>٣. دعم التذكيرات الصوتية المسجلة بصوت المستخدم أو بصوت واضح ومفهوم.</p>

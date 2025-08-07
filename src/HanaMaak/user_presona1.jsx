@@ -9,7 +9,7 @@ const UserPersona1Section = () => {
         }}
       >
         {/* Title Box - Top */}
-        <div className="absolute -top-8 left-[35%] bg-[#3876BF] px-6 py-2 font-inter rounded-full border border-[#3876BF] shadow-lg shadow-blue-500/50">
+        <div className="absolute -top-8 left-[35%] bg-[#3876BF] px-16 py-2 font-inter rounded-full border border-[#3876BF] shadow-lg shadow-blue-500/50">
           <h2 className="text-[#FFFFFF] font-bold font-inter text-3xl">User Persona</h2>
         </div>
 
@@ -20,7 +20,7 @@ const UserPersona1Section = () => {
             <div className="text-white text-center text-6xl font-medium leading-[0.5] font-carter-one" >
               &ldquo;
             </div>
-            <p className="text-white text-lg font-medium leading-relaxed text-right" dir="rtl">
+            <p className="text-white text-lg font-medium leading-relaxed text-right font-inter" dir="rtl">
 تهمني حياتي الصحية بجانب حياتي الاجتماعيه والمهنية، لأني واثقه اذا كنت بصحة ممتازة اقدر ابتكر اكثر، وجودة افضل سواء لعائلتي او لعملي. فوجود تطبيق يذكرني بأدويتي وفيتاميناتي مع انشغالي ونسياني، بكون شئ رهيب مره                 </p>
           </div>
         </div>

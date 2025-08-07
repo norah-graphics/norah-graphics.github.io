@@ -7,7 +7,7 @@ const SurveyQuestionSection=()=> {
               <div className="relative bg-white p-2  rounded-br-[3.5rem] rounded-bl-[3.5rem] rounded-tl-[3.5rem]">
       {/* Title Box - Top Right */}
       <div className="absolute -top-4 right-0 bg-white px-6 py-2 font-inter rounded-tl-full rounded-bl-full border border-[#B6E7E3]">
-        <h2 className="text-[#00A0FF] font-bold text-xl">Survey Questions</h2>
+        <h2 className="text-[#00A0FF] font-bold text-xl font-inter">Survey Questions</h2>
       </div>
       
       {/* Gradient Content Box */}

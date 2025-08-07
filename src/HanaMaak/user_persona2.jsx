@@ -9,7 +9,7 @@ const UserPersona2Section = () => {
         }}
       >
         {/* Title Box - Top */}
-        <div className="absolute -top-8 left-[35%] bg-[#3876BF] px-6 py-2 font-inter rounded-full border border-[#3876BF] shadow-lg shadow-blue-500/50">
+        <div className="absolute -top-8 left-[35%] bg-[#3876BF] px-16 py-2 font-inter rounded-full border border-[#3876BF] shadow-lg shadow-blue-500/50">
           <h2 className="text-[#FFFFFF] font-bold font-inter text-3xl">User Persona</h2>
         </div>
 

@@ -24,7 +24,7 @@ const MobileDiagramsSections = () => {
 
         <div className="p-8">
          <div className="py-12">
-            <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-open-sans ">
+            <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-sans ">
                Splach Screen / On Boarding Screen
             </h2>
              <div className="grid gap-4 
@@ -52,7 +52,7 @@ const MobileDiagramsSections = () => {
 
          <div className="p-8">
          <div className="py-12">
-            <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-open-sans ">
+            <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-sans ">
               Login Page/Sign Up Page
             </h2>
              <div className="grid gap-4 
@@ -92,7 +92,7 @@ const MobileDiagramsSections = () => {
             key={index} 
             className="overflow-hidden duration-300 hover:scale-105 transition-all"
           >
-            <p className='font-bold text-[#039BFF] text-2xl text-center' > {image.text}</p>
+            <p className='font-bold text-[#039BFF] text-2xl text-center font-sans' > {image.text}</p>
             <img 
               src={image.src} 
               alt={image.alt}
