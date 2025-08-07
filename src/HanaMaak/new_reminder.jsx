@@ -81,8 +81,8 @@ const NewReminderSection = () => {
                       <div class="flex-1 text-left">
                           <div class="text-[#01A0FF] font-extrabold text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-noto-sans">
                               <div>لبناء تجـربة</div>
-                              <div class="mt-1">استخـــــــدام</div>
-                              <div class="mt-1">ســلســـــــة</div>
+                              <div class="mt-1">استخــــدام</div>
+                              <div class="mt-1">ســلســــة</div>
                           </div>
                       </div>
                       
