@@ -3,7 +3,7 @@ import TimelineCircle from './circle';
 const TimelineSection = () => {
   return (
     <section className="w-full py-16 px-4">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto md:px-6">
       {/* Timeline Title */}
       <div className="text-center">
         <h2 className="text-7xl font-thin " style={{ color: '#808080' }}>

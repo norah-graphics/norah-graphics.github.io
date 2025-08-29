@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProjectOverViewGlassCard = () => {
   return (
- <section className="w-full md:pb-16 md:pb-12 px-4 relative w-full max-w-6xl mx-auto p-8">
+ <section className="w-full md:pb-16 md:pb-12 px-4 relative w-full max-w-6xl mx-auto p-8  md:mt-12 md:mb-16">
       {/* First box - positioned slightly left top */}
       <div 
         className="absolute w-full rounded-2xl md:rounded-full transform -translate-x-10 -translate-y-8 p-1"

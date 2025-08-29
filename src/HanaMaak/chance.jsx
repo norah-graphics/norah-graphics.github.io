@@ -2,7 +2,7 @@ import React from 'react';
 
 const HanaChanceSection = () => {
   return (
-    <section className="max-w-6xl mx-auto  relative">
+    <section className="max-w-6xl mx-auto  relative  h-screen flex flex-col items-ceneter justify-center">
       <div className="flex items-center justify-center p-8">
         <div className="">
           {/* Gradient container with rounded corners */}
@@ -20,7 +20,7 @@ const HanaChanceSection = () => {
                     فـرصة “حنّا معاك”
                 </h1>
                 
-                <p className="text-base md:text-lg text-black leading-relaxed mb-8">
+                <p className="text-base md:text-lg text-black leading-relaxed mb-8 px-4 md:px-0">
                   لا يوجد حاليًا تطبيق محلي يوفر خدمة منبة تذكيري طبي بإستخدام خدمات الذكاء الاصطناعي، وخدمة المحادثة السريعة مع الذكاء الاصطناعي عن الادويه المضافة في التطبيق، يقوم تطبيقنا بسد هذه الفجوة في السوق مع التركيز على مراعاة الفروق الفردية والعمرية لمستخدمين التطبيق
                 </p>
               </div>
@@ -32,7 +32,7 @@ const HanaChanceSection = () => {
         </div>
          {/* Optional decorative elements */}
             {/* <div className="absolute  md:top-[10rem] lg:top-[5rem] w-full md:max-w-[350px] lg:max-w-[500px] mx-auto md:left-[1rem] lg:left-[-3rem] bg-opacity-20 rounded-full md:block hidden"> */}
-              <div className="chance-image-position w-full md:max-w-[350px] lg:max-w-[500px] mx-auto bg-opacity-20 rounded-full md:block hidden">
+              <div className="chance-image-position w-full md:max-w-[370px] lg:max-w-[440px] xl:max-w-[500px] mx-auto bg-opacity-20 rounded-full md:block hidden">
                 <img src='/assets/chance.svg' className='w-full h-auto rounded-xl '/>
             </div>
       </div>

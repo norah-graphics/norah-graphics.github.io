@@ -24,7 +24,7 @@ const MobileDiagramsSections = () => {
 
         <div className="p-8">
          <div className="py-12">
-            <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-sans ">
+            <h2 className="text-3xl font-bold text-center text-[#01A0FF] font-sans ">
                Splach Screen / On Boarding Screen
             </h2>
              <div className="grid gap-4 
@@ -52,7 +52,7 @@ const MobileDiagramsSections = () => {
 
          <div className="p-8">
          <div className="py-12">
-            <h2 className="text-3xl font-bold text-center mb-4 text-[#01A0FF] font-sans ">
+            <h2 className="text-3xl font-bold text-center text-[#01A0FF] font-sans ">
               Login Page/Sign Up Page
             </h2>
              <div className="grid gap-4 

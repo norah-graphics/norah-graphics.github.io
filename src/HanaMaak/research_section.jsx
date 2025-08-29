@@ -3,7 +3,7 @@ import React from 'react';
  const ResearchSection=()=> {
   return (
 
-    <section className=' max-w-6xl mx-auto px-4 py-20 '>
+    <section className=' max-w-6xl mx-auto px-4 py-14  h-screen flex flex-col items-ceneter justify-center'>
  <div className="bg-[#b6e7e3] p-8 rounded-2xl">
       <div className="flex flex-col lg:flex-row items-center gap-8 md:px-20">
         {/* SVG - Top on mobile, Right on desktop */}

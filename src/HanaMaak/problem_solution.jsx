@@ -5,7 +5,7 @@ const ProblemSolutionSection = () => {
     var text3=" (نموذج AI)";
     var text4=" يقرأ صور وصفات الأدوية سواء كانت خطية أم إلكترونية.";
   return (
-    <section className="max-w-6xl mx-auto py-10">
+    <section className="max-w-7xl mx-auto py-16 flex flex-col items-ceneter justify-center">
 
       <div className="py-8" dir="rtl">
       <div className="flex flex-col md:flex-row justify-between gap-8">
@@ -29,7 +29,7 @@ const ProblemSolutionSection = () => {
 
             <div className="">
               <h2 className="text-4xl font-bold mb-2 text-right text-white font-noto-sans">المشكلات:</h2>
-              <div className="text-sm leading-relaxed font-noto-sans text-black font-regular">
+              <div className="text-lg leading-relaxed font-noto-sans text-black font-regular">
                 <p>١. نسيان المواعيد الطبية وأوقات الأدوية بشكل متكرر.</p>
                 <p>٢. الإشارات التقليدية غير فعالة أو يتم تجاهلها.</p>
                 <p>٣. صعوبة استخدام التطبيقات الحديثة لدى كبار السن.</p>
@@ -64,7 +64,7 @@ const ProblemSolutionSection = () => {
 
             <div className="">
               <h2 className="text-4xl font-bold mb-2 text-white text-right font-noto-sans">الحلول:</h2>
-              <div className=" text-sm text-black leading-relaxed  text-right font-noto-sans font-regular">
+              <div className=" text-lg text-black leading-relaxed  text-right font-noto-sans font-regular ">
                 <p>{text1} {text2}{text3}{text4}</p>
                 <p>٢. إنشاء منبه تلقائي للعلاج بناء على مكونات الوصفة وتوقيتها.</p>
                 <p>٣. دعم التذكيرات الصوتية المسجلة بصوت المستخدم أو بصوت واضح ومفهوم.</p>

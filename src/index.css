@@ -58,14 +58,41 @@ html {
 
 .chance-image-position {
   position: absolute;
-  top: 10rem;
-  left: 1rem;
+  top: 2rem;
+  left: -5%;
 }
 
+
+
+/* Medium screens (≥768px) */
+@media (min-width: 768px) {
+  .chance-image-position {
+    top: 10rem;
+    left: 3%;
+  }
+}
+
+/* Large screens (≥1024px) */
 @media (min-width: 1024px) {
   .chance-image-position {
-    top: -8rem;
-    left: -3rem;
+    top: 8rem;
+    left: 4%;
+  }
+}
+
+/* Extra Large screens (≥1280px) */
+@media (min-width: 1280px) {
+  .chance-image-position {
+    top: 4rem;
+    left: -5%;
+  }
+}
+
+/* Extra Large screens (≥1280px) */
+@media (min-width: 1280px) {
+  .chance-image-position {
+    top: 4rem;
+    left: -5%;
   }
 }
 
