@@ -13,7 +13,7 @@ const InterviewQuestionsSection = () => {
         <p className='font-zain text-[#6A1A7D] font-extrabold text-3xl md:text-4xl'>User Interview Questions</p>
        </div>
        {/* list */}
-       <div className='grid  grid-cols-1 md:grid-cols-[auto_1fr] h-screen'>
+       <div className='grid  grid-cols-1 md:grid-cols-[auto_1fr] '>
         <div className=' h-full hidden md:flex flex-col justify-center items-center'>
             <img src='/assets/rose/flowers.svg' className=''/>
         </div>

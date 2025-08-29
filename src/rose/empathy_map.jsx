@@ -3,9 +3,9 @@ const EmpathyMapSection = () => {
   return (
     <section className='max-w-7xl mx-auto px-4 py-16 relative'>
         <div className="w-full mx-auto relative border border-[#D14D72] border-[3px] rounded-2xl relative" dir="rtl">
-            <div className="w-fit flex flex-col absolute  bg-[#F3F3F3] px-4 rounded-full -top-10 -translate-x-1/2 left-1/2 py-2 justify-center items-center">
-                <h2 className="text-[#6A1A7D] font-extrabold font-merriweather text-2xl md:text-3xl px-2">خريطة التعاطف</h2>
-                <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2 pb-2">Empathy map</h2>
+            <div className="w-fit flex flex-col absolute  bg-[#F3F3F3] px-4 rounded-full md:-top-10 -top-4 -translate-x-1/2 left-1/2  justify-center items-center">
+                <h2 className="text-[#6A1A7D] font-extrabold font-merriweather text-2xl md:text-3xl px-2 md:block hidden">خريطة التعاطف</h2>
+                <h2 className="text-[#6A1A7D] font-extrabold font-zain text-2xl md:text-3xl px-2 md:pb-2">Empathy map</h2>
             </div>
         
       {/* Center Image for Small Screens */}

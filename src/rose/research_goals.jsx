@@ -20,7 +20,51 @@ const ResearchGoalsSection = ({source,alt}) => {
         </div>
         {/* bottom box */}
         <div className='flex items-center justify-center pt-8 md:mx-16'>
-          <div className="py-3 ml-4 sm:ml-16 md:ml-[10rem] lg:ml-[20rem] rounded-full w-[75%] sm:w-1/2 md:w-[90%] px-6 sm:px-10 py-6 flex items-center justify-center md:justify-end space-x-3 sm:space-x-7 bg-gradient-to-r from-[rgba(255,196,213,1)] via-[rgba(255,196,213,0.70)] to-transparent [background-image:linear-gradient(to_right,rgba(255,196,213,1)_0%,rgba(255,196,213,0.70)_70%,transparent_100%)]">
+          <div className="py-3 ml-4 sm:ml-16 md:ml-[10rem] lg:ml-[20rem] rounded-full w-[75%] sm:w-1/2 md:w-[90%] px-6 sm:px-10 py-6 hidden md:flex items-center justify-center md:justify-end space-x-3 sm:space-x-7 bg-gradient-to-r from-[rgba(255,196,213,1)] via-[rgba(255,196,213,0.70)] to-transparent [background-image:linear-gradient(to_right,rgba(255,196,213,1)_0%,rgba(255,196,213,0.70)_70%,transparent_100%)]">
+            
+            {/* User Flow */}
+            <div className="text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-inter  text-[#6A1A7D]">
+                2
+              </div>
+              <div className="text-base sm:text-base md:text-lg lg:text-lg  font-medium text-[#000000] font-inter">
+                 Persona
+              </div>
+            </div>
+
+            {/* Interviews */}
+            <div className="text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold  text-[#6A1A7D] font-inter">
+                4+
+              </div>
+              <div className="text-base sm:text-base md:text-lg lg:text-lg  font-medium text-[#000000] font-inter">
+                User Flow
+              </div>
+            </div>
+
+            {/* Screens */}
+            <div className="text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold  text-[#6A1A7D] font-inter">
+                20+
+              </div>
+              <div className="text-base sm:text-base md:text-lg lg:text-lg  font-medium text-[#000000] font-inter">
+                Components
+              </div>
+            </div>
+
+            {/* Personas */}
+            <div className="text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#6A1A7D] font-inter">
+                7+
+              </div>
+              <div className="text-base sm:text-base md:text-lg lg:text-lg  font-medium text-[#000000] font-inter">
+                Interview
+              </div>
+            </div>
+          </div>
+
+
+          <div className="md:hidden block py-3 rounded-full w-full px-6 sm:px-10 py-6 flex items-center justify-center md:justify-end space-x-3 sm:space-x-7 bg-gradient-to-r from-[rgba(255,196,213,1)] via-[rgba(255,196,213,0.70)] to-transparent [background-image:linear-gradient(to_right,rgba(255,196,213,1)_0%,rgba(255,196,213,0.70)_70%,transparent_100%)]">
             
             {/* User Flow */}
             <div className="text-center">

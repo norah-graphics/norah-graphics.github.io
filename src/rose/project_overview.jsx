@@ -53,30 +53,28 @@ const ProjectOverViewSection = () => {
 <div className="relative w-full flex justify-center">
   {/* Container for pink box and purple line */}
   <div className="relative w-full flex justify-center">
-    {/* Purple line centered behind pink box */}
-    <div className="absolute top-1/2 left-0 w-full h-[17px] bg-[#6A1A7D] -translate-y-1/2 z-0" />
+  {/* Purple line centered behind pink box */}
+  <div className="absolute top-1/2 left-0 w-full h-[17px] bg-[#6A1A7D] -translate-y-1/2 z-0" />
 
-    {/* Pink rounded box */}
-    <div className="relative z-10 rounded-full w-[90%] md:w-full px-6 sm:px-10 py-6 flex items-center justify-evenly bg-[#FFC4D5] md:max-w-5xl">
-      {/* Screens */}
-      <div className="text-center">
-        <div className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold font-inter text-[#6A1A7D]">60+</div>
-        <div className="text-base font-medium text-[#303030] font-inter">Screens</div>
-      </div>
+  {/* Pink rounded box */}
+  <div className="relative z-10 rounded-full w-[90%] md:w-full px-6 sm:px-10 md:py-6 py-2 grid grid-cols-3 bg-[#FFC4D5] md:max-w-5xl">
+    <div className="text-center">
+      <div className="text-lg sm:text-lg md:text-2xl lg:text-3xl font-bold font-inter text-[#6A1A7D]">60+</div>
+      <div className="text-base font-medium text-[#303030] font-inter">Screens</div>
+    </div>
 
-      {/* Timeline */}
-      <div className="text-center">
-        <div className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#6A1A7D] font-inter">3 Months</div>
-        <div className="text-base font-medium text-[#303030] font-inter">TimeLine</div>
-      </div>
+    <div className="text-center">
+      <div className="text-lg sm:text-lg md:text-2xl lg:text-3xl font-bold text-[#6A1A7D] font-inter">3 Months</div>
+      <div className="text-base font-medium text-[#303030] font-inter">Timeline</div>
+    </div>
 
-      {/* Project */}
-      <div className="text-center">
-        <div className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#6A1A7D] font-inter">Project</div>
-        <div className="text-base font-medium text-[#303030] font-inter">Mopile/Landing Page/Dash Bord</div>
-      </div>
+    <div className="text-center">
+      <div className="text-lg md:text-2xl lg:text-3xl font-bold text-[#6A1A7D] font-inter">Project</div>
+      <div className="text-base font-medium text-[#303030] font-inter">Mobile/Landing Page/Dashboard</div>
     </div>
   </div>
+</div>
+
 </div>
 
 {/* White box below and behind pink box */}
