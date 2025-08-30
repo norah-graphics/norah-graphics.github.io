@@ -16,7 +16,7 @@ const UserInterviewSection = () => {
       
       {/* Box 1 */}
       <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">What is your job title?</h2>
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">What is your job title?</h2>
         <div className='md:pl-10'>
 
             <ul className=" text-[#7A00AA] font-semibold">
@@ -31,7 +31,7 @@ const UserInterviewSection = () => {
 
       {/* Box 2 */}
       <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">How many athletes do you work with directly?</h2>
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">How many athletes do you work with directly?</h2>
         <div className='md:pl-10'>
          <ul className=" text-[#7A00AA] font-semibold">
           <li className="text-base text-[#000000] font-semibold font-cairo leading-none" ><span className="text-2xl text-[#9511CB] font-bold font-cairo">(77.5%)</span> <span className="px-1"> Less than 10</span></li>
@@ -43,7 +43,7 @@ const UserInterviewSection = () => {
       </InfoBox>
       {/* Box 3 */}
       <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">What is the main age group you serve?</h2>
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">What is the main age group you serve?</h2>
         <div className='md:pl-10'>
 
             <ul className=" text-[#7A00AA] font-semibold">
@@ -57,7 +57,7 @@ const UserInterviewSection = () => {
 
       {/* Box 4 */}
       <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">Do you currently use any system to track <br/>players' physical performance?</h2>
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">Do you currently use any system to track <br/>players' physical performance?</h2>
         <div className='md:pl-10'>
          <ul className=" text-[#7A00AA] font-semibold">
           <li className="text-base text-[#000000] font-semibold font-cairo leading-none" ><span className="text-2xl text-[#9511CB] font-bold font-cairo">(67.5%)</span> <span className="px-1"> Yes</span></li>
@@ -70,7 +70,7 @@ const UserInterviewSection = () => {
 
       {/* Box 5 */}
       <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">What are the biggest challenges you face<br/>
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">What are the biggest challenges you face<br/>
 in tracking physical performance?</h2>
         <div className='md:pl-10'>
 
@@ -86,7 +86,7 @@ in tracking physical performance?</h2>
 
       {/* Box 6 */}
        <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">What are the most important features you
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">What are the most important features you
 would like to have in a smart system?</h2>
         <div className='md:pl-10'>
 
@@ -104,7 +104,7 @@ would like to have in a smart system?</h2>
     
       {/* Box 7 */}
        <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">Would you prefer the system to be?</h2>
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">Would you prefer the system to be?</h2>
         <div className='md:pl-10'>
          <ul className=" text-[#7A00AA] font-semibold">
           <li className="text-base text-[#000000] font-semibold font-cairo leading-none" ><span className="text-2xl text-[#9511CB] font-bold font-cairo">(60%)</span> <span className="px-1"> Mobile App</span></li>
@@ -116,7 +116,7 @@ would like to have in a smart system?</h2>
 
       {/* Box 8 */}
       <InfoBox>
-        <h2 className="text-lg font-semibold m-4 font-cairo">Do you think this system could improve the
+        <h2 className="text-lg font-semibold md:m-4 md:my-0 my-4 font-cairo">Do you think this system could improve the
 quality of training and reduce injuries?</h2>
         <div className='md:pl-10'>
          <ul className=" text-[#7A00AA] font-semibold">
