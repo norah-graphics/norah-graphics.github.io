@@ -49,7 +49,7 @@ const UserPersona2Section = () => {
         <div className="lg:hidden flex flex-col items-center justify-center h-full space-y-6">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-[#ABDAF6]">
             <img
-                src="/assets/hasa.png"
+                src="/assets/hanamaak/hafsa_pfp.png"
                 alt="حصة"
                 className="w-full h-full object-cover"
             />
