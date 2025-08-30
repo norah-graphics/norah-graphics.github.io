@@ -7,7 +7,7 @@ const AnalysisPageInterfaceSection = () => {
         {/* <p>analysis screen</p> */}
          <div className='flex-col font-cairo'>
          <h2 className='font-bold text-[#9511CB] pb-1 md:text-3xl text-xl'>Analysis page</h2>
-        <p className='pb-4 text-lg md:text-xl font-semibold text-[#78767D]'>Real-life performance analysis</p>
+        <p className='pb-4  text-base md:text-lg lg:text-xl font-semibold text-[#78767D]'>Real-life performance analysis</p>
     </div>
       </div>
       {/* analysis */}
@@ -31,12 +31,12 @@ const AnalysisPageInterfaceSection = () => {
           />
 
           {/* Title positioned over the top border */}
-          <h1 className="absolute -top-4 left-0 bg-[#F3F3F3]  pr-4 text-lg md:text-xl  text-[#78767D]">
+          <h1 className="absolute -top-4 left-0 bg-[#F3F3F3]  pr-4 text-base md:text-lg lg:text-xl  text-[#78767D]">
             experience (football match) using artificial intelligence
           </h1>
 
           {/* Content */}
-         <div className="grid grid-cols-2 lg:grid-cols-3 lg:grid-cols-6 gap-4">
+         <div className="grid grid-cols-2 lg:grid-cols-3 lg:grid-cols-6 gap-4 md:pt-0 pt-8">
             {[1, 2, 3, 4,5,6].map((num) => (
                 <div key={num} className="w-full overflow-hidden duration-300 hover:scale-105 transition-all">
                 <img
