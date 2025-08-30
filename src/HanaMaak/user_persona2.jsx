@@ -9,8 +9,8 @@ const UserPersona2Section = () => {
         }}
       >
         {/* Title Box - Top */}
-        <div className="absolute -top-8 left-[35%] bg-[#3876BF] px-16 py-2 font-inter rounded-full border border-[#3876BF] shadow-lg shadow-blue-500/50">
-          <h2 className="text-[#FFFFFF] font-bold font-inter text-3xl">User Persona</h2>
+        <div className="absolute -top-6 md:-top-8 left-[35%] bg-[#3876BF] md:px-16 px-8 py-2 font-inter rounded-full border border-[#3876BF] shadow-lg shadow-blue-500/50">
+          <h2 className="text-[#FFFFFF] font-bold font-inter md:text-3xl text-lg">User Persona</h2>
         </div>
 
         {/* Quote Bubble - Left Side - Hidden on small screens */}
@@ -39,7 +39,7 @@ const UserPersona2Section = () => {
             <h3 className="text-7xl font-inter font-extrabold">حصة</h3>
             <p className="text-xl font-medium text-right">متقاعدة/ ربة منزل</p>
             <div className="flex items-center space-x-2 rtl:space-x-reverse">
-                <img src='/assets/profile.svg' alt="profile" />
+                <img src='/assets/profile.svg' alt="profile"  className="lg:filter-none filter brightness-0" />
                 <p className="text-xl font-medium text-right">50 سنة - ام لـ ست اطفال</p>
             </div>
             </div>
@@ -59,7 +59,7 @@ const UserPersona2Section = () => {
             <h3 className="text-4xl font-inter font-extrabold mb-2">حصة</h3>
             <p className="text-lg font-medium mb-2">متقاعدة/ ربة منزل</p>
             <div className="flex items-center justify-center space-x-2 rtl:space-x-reverse">
-                <img src='/assets/profile.svg' alt="profile" />
+                <img src='/assets/profile.svg' alt="profile"  className="lg:filter-none filter brightness-0"/>
                 <p className="text-lg font-medium">50 سنة - ام لـ ست اطفال</p>
             </div>
             </div>

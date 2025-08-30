@@ -1,7 +1,7 @@
 
 const ClockSection = () => {
   return (
-    <section className="w-full flex items-center justify-center pt-[5.7rem] md:pt-[4rem]">
+    <section className="w-full flex items-center justify-center pt-[5.7rem] md:pt-[4rem] md:flex hidden">
       <img
                 src="/assets/clock.svg"
                 alt="HanaMaaK"
