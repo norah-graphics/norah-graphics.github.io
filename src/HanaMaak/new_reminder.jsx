@@ -96,7 +96,7 @@ const NewReminderSection = () => {
          <div className="py-8">
            
             <div className="grid gap-4 
-                    grid-cols-1 
+                    grid-cols-2
                     xs:grid-cols-2 
                     sm:grid-cols-2 
                     md:grid-cols-2 
@@ -125,7 +125,7 @@ const NewReminderSection = () => {
            <div className="py-8">
            
             <div className="grid gap-4 
-                    grid-cols-1 
+                    grid-cols-2 
                     xs:grid-cols-2 
                     sm:grid-cols-2 
                     md:grid-cols-2 
