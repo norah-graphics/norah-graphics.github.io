@@ -13,15 +13,20 @@ const SmartRapsodyShowcase = () => {
       <div className="max-w-6xl w-full rounded-3xl overflow-visible">
         <div className="flex flex-col lg:flex-row">
             {/* Only shown in mobile */}
-            <div className="lg:w-1/2 flex items-center justify-center p-8 md:hidden block">
-            <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500 md:p-8 lg:p-0">
-              <img src='/assets/smartApp.svg' alt="Smart App"/>
-            </div>
+            <div className="lg:w-1/2 flex items-center justify-center md:p-8 md:hidden block">
+            <div className="mb-8 flex justify-center md:hidden flex">
+                <img src='/assets/smartLogo.svg' alt="Smart Rapsody Logo"/>
+              </div>
+              <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500 md:p-8 lg:p-0">
+                <img src='/assets/smartApp.svg' alt="Smart App"/>
+              </div>
+
+              
           </div>
           {/* Left Side */}
- <div className="lg:w-1/2 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
+           <div className="lg:w-1/2 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
             {/* Logo */}
-            <div className="mb-8 flex justify-center">
+            <div className="mb-8 flex justify-center md:flex hidden">
               <img src='/assets/smartLogo.svg' alt="Smart Rapsody Logo"/>
             </div>
 
@@ -45,6 +50,7 @@ const SmartRapsodyShowcase = () => {
             </div>
 
             {/* View Case Study Button */}
+            <div className='w-full flex-row flex  md:justify-start justify-end'>
              <button 
               onClick={handleViewCaseStudy} 
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#D9D9D9] text-[#454949] transition-all duration-300 hover:bg-[#454949] hover:text-white w-fit"
@@ -58,7 +64,7 @@ const SmartRapsodyShowcase = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7V17" />
               </svg>
               VIEW CASE STUDY
-            </button>
+            </button></div>
           </div>
 
          

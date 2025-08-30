@@ -15,16 +15,19 @@ const HannaRapsodyShowcase = () => {
       <div className="max-w-6xl w-full rounded-3xl overflow-visible">
         <div className="flex flex-col lg:flex-row">
           {/* Left Side - SVG Image Placeholder */}
-          <div className="lg:w-1/2 flex items-center justify-center p-8">
+          <div className="lg:w-1/2 flex items-center justify-center md:p-8">
             <div className="w-full h-96 rounded-2xl flex items-center justify-center text-gray-500 md:p-8 lg:p-0">
               <img src='/assets/hanaApp.svg' alt="hana App"/>
+            </div>
+            <div className="mb-8 flex justify-center  md:hidden flex">
+              <img src='/assets/hanaLogo.svg' alt="hana Rapsody Logo"/>
             </div>
           </div>
 
           {/* Right Side - Content */}
           <div className="lg:w-1/2 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
             {/* Logo */}
-            <div className="mb-8 flex justify-center">
+            <div className="mb-8 flex justify-center  md:flex hidden">
               <img src='/assets/hanaLogo.svg' alt="hana Rapsody Logo"/>
             </div>
 
@@ -48,7 +51,8 @@ const HannaRapsodyShowcase = () => {
             </div>
 
             {/* View Case Study Button */}
-             <button 
+            <div className='w-full flex-row flex  md:justify-start justify-end'>
+              <button 
               onClick={handleViewCaseStudy} 
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#D9D9D9] text-[#454949] transition-all duration-300 hover:bg-[#454949] hover:text-white w-fit"
             >
@@ -62,6 +66,8 @@ const HannaRapsodyShowcase = () => {
               </svg>
               VIEW CASE STUDY
             </button>
+            </div>
+             
           </div>
         </div>
       </div>

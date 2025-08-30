@@ -40,7 +40,7 @@ const PortfolioSection = () => {
             {/* More details button */}
             <button 
               onClick={handleClick}
-              className="inline-flex items-center gap-3 px-8 rounded-full text-[#454949] font-medium transition-all duration-300 group"
+              className="md:block hidden inline-flex items-center gap-3 px-8 rounded-full text-[#454949] font-medium transition-all duration-300 group"
             >
               <div className="w-10 h-10 border border-[#454949] bg-[#D9D9D9] rounded-full flex items-center justify-center group-hover:border-white group-hover:bg-[#454949] transition-colors duration-300">
                 <svg 
