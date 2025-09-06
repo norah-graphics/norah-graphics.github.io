@@ -5,7 +5,7 @@ const SmartCarePersona1Section = () => {
     <section className='max-w-6xl mx-auto px-4 py-16 relative'>
       <div className="relative  p-2 rounded-br-[3.5rem]  bg-gradient-to-br from-[#C510C5]/10 to-[#baa2fa] rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-[3.5rem] border border-[#9511CB]">
         {/* Title Box - Top */}
-        <div className="absolute top-12 left-[-3%] w-[2%] h-[60%] px-6 py-2 font-cairo rounded-xl border border-[#9511CB] lg:block hidden"
+        <div className="absolute top-12 left-[-2.5%] w-[2%] h-[60%] px-6 py-2 font-cairo rounded-xl border border-[#9511CB] lg:block hidden"
           style={{
   background: 'linear-gradient(80deg, rgba(196, 12, 196, 1) 10%, rgba(56, 29, 255, 1) 75%, rgba(29, 255, 232, 1) 100%)',
         }}
@@ -25,7 +25,7 @@ const SmartCarePersona1Section = () => {
             right: `calc(-25vw + 250px)` // Responsive positioning: larger screens = closer to edge
           }}
         >
-          <div className=" lg:block hidden bg-white bg-gradient-to-br from-[#C510C5]/10 to-[#baa2fa] rounded-[2rem] px-8 py-6 lg:w-[500px] border border-[#FFFFFF]">
+          <div className=" lg:block hidden bg-white bg-gradient-to-br from-[#C510C5]/10 to-[#baa2fa] rounded-2xl px-8 py-6 lg:w-[500px] border border-[#FFFFFF]">
             <div className="text-[#9511CB] text-center text-8xl font-medium leading-[0.5] font-carter-one">
               &ldquo;
             </div>

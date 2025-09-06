@@ -45,7 +45,9 @@ const ProjectOverViewSection = () => {
 
   return (
 
-<section className="w-full md:py-16 py-12 relative w-full  ">
+<section className="w-full md:py-16 py-12 md:h-screen flex items-center justify-center ">
+<div className=" relative w-full">
+
 <div className="pointer-events-none overflow-hidden absolute -translate-y-1/2 z-0  left-[-45rem] top-[20rem]">
           <img className="w-30 h-30 "src='/assets/circle.svg'/>
 
@@ -229,6 +231,8 @@ const ProjectOverViewSection = () => {
 </div>
 </div>
 
+
+</div>
 
  </section>
   );

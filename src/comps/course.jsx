@@ -9,7 +9,7 @@ const CoursesAchievementsSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             
             {/* Courses and Certificate Column */}
-            <div className="space-y-3">
+            <div className="space-y-3 font-inter">
               <h2 className="text-xl font-semibold text-[#454949]">Courses and Certificate:</h2>
               
               <div className=" text-[#454949]">
@@ -49,7 +49,7 @@ const CoursesAchievementsSection = () => {
             </div>
             
             {/* Achievements Column */}
-            <div className="space-y-3">
+            <div className="space-y-3 font-inter">
               <h2 className="text-xl font-semibold text-[#454949]">Achievements:</h2>
               
               <div className="space-y-1 text-[#454949]">

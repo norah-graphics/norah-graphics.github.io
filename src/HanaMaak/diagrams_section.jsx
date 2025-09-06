@@ -19,7 +19,10 @@ const DiagramsSections = () => {
 
   return (
     <section className='max-w-6xl mx-auto px-4'>
+      <div className='p-4 flex justify-center'>
+                    <img src='/assets/userflow.svg' />
 
+        </div>
         <div className="p-8">
         {sectionsData.map((section, index) => (
             <div key={index} className={`${index !== 0 ? 'py-12' : 'pb-12'}`}>

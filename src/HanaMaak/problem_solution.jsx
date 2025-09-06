@@ -5,7 +5,7 @@ const ProblemSolutionSection = () => {
     var text3=" (نموذج AI)";
     var text4=" يقرأ صور وصفات الأدوية سواء كانت خطية أم إلكترونية.";
   return (
-    <section className="max-w-7xl mx-auto py-16 flex flex-col items-ceneter justify-center">
+    <section className="max-w-7xl mx-auto py-16 flex flex-col items-ceneter justify-center h-screen">
 
       <div className="py-8" dir="rtl">
       <div className="flex flex-col md:flex-row justify-between gap-8">

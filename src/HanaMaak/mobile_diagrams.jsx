@@ -90,13 +90,23 @@ const MobileDiagramsSections = () => {
         {screens.map((image, index) => (
           <div 
             key={index} 
-            className="overflow-hidden duration-300 hover:scale-105 transition-all"
+            className={`overflow-hidden duration-300 hover:scale-105 transition-all flex flex-col
+               ${
+                image.text === "Home Screen" ?  " lg:-mt-12 " :""}
+              `}
           >
-            <p className='font-bold text-[#039BFF] text-xl md:text-2xl text-center font-sans' > {image.text}</p>
+            <p className={`font-bold text-[#039BFF] text-xl md:text-2xl text-center font-sans 
+               ${
+                image.text === "Home Screen" ? "lg:mb-0  md:-mb-10 -mb-8" : "lg:-mb-12 md:-mb-10 -mb-8 "}
+              `} > {image.text}</p>
             <img 
               src={image.src} 
               alt={image.alt}
-              className="w-full max-w-xs mx-auto h-auto object-contain"
+              className={`w-full max-w-xs mx-auto h-auto object-contain 
+                
+                ${
+                image.text === "Home Screen" ? "lg:scale-[1.2]" : ""}
+                `}
             />
           </div>
         ))}
