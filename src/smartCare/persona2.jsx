@@ -2,7 +2,7 @@ import React from 'react';
 
 const SmartCarePersona2Section = () => {
   return (
-    <section className='max-w-6xl mx-auto px-4 py-16 relative'>
+    <section className='max-w-5xl mx-auto px-4 py-16 relative'>
       <div className="relative  p-2 rounded-br-[3.5rem]  bg-gradient-to-br from-[#C510C5]/10 to-[#baa2fa] rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-[3.5rem] border border-[#9511CB]">
         {/* Title Box - Top */}
         <div className="absolute top-12 left-[-2.5%] w-[2%] h-[60%] px-6 py-2 font-cairo rounded-xl border border-[#9511CB] lg:block hidden"
@@ -55,9 +55,9 @@ I aspire to develop and play with the Saudi national team.
         <img src='/assets/smartCare/yousif.svg'className='' />
 
         </div>
-       <div className='lg:w-3/6 w-4/5 flext'> 
+       <div className='lg:w-3/6 w-4/5 flext lg:ml-12'> 
          <p className="font-medium font-cairo text-[#041219] text-lg text-start">
-          Youssef Al-Fahad is a football، ambitious footballer who trains hard but needs a smart way to monitor his health and avoid overtraining.
+          Youssef Al-Fahad is a football، ambitious footballer who trains hard but needs a smart way to monitor his health and avoid overtraining.
         </p>
        </div>
       </div>
