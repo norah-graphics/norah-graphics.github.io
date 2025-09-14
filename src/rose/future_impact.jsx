@@ -32,7 +32,7 @@ const FutureImpactsSection = () => {
                     <li>•&nbsp;&nbsp;&nbsp; من خلال دمج التقويمات (مثل Google Calendar)، يمكن للتطبيق اقتراح باقات أو إرسال تذكيرات تلقائية قبل المناسبات المهمة.</li>
                 </ul>
                 <div className="flex w-full py-4 md:justify-end justify-center">
-                    <ViewLinkButton link="https://google.com"/>
+                    <ViewLinkButton link="/assets/demos/Rose Rapsody demo.mov"/>
 
                 </div>
             </div>

@@ -36,7 +36,7 @@ As Saudi Arabia prepares to host the FIFA World Cup in 2034, the need for innov
         <div className="flex-col flex ">
             <img src='/assets/smartCare/futureImpact.svg' className="pb-8 "/>
             <div className="flex-col flex items-center">
-                <ViewLinkButton link="https://google.com"/>
+                <ViewLinkButton link="/assets/demos/Smart Care Demo.mov"/>
 
             </div>
         </div>

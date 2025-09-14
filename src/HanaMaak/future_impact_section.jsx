@@ -2,6 +2,11 @@ import React from 'react';
 import ViewLinkButton from '../shared_comps/view_link_button';
 const FutureImpactSection = () => {
 
+    const openDemo = () => {
+    window.open("/assets/demos/Hana Maak Demo.mov", '_blank');
+    setIsMenuOpen(false); // Close menu after action
+  };
+
   return (
    <section className="max-w-8xl mx-auto relative">
       <div className="flex items-center justify-center p-4 sm:p-6 md:p-8">
@@ -43,7 +48,7 @@ const FutureImpactSection = () => {
                         <li><span className="pl-2"> • </span> تقديم الدعم العاطفي للمريض بإستخدام خدمات الذكاء الاصطناعي لمتابعة التأثير النفسي.</li>
                         
                          <div className="md:hidden blcok flex justify-start pt-4" > 
-                          <ViewLinkButton link="https://google.com" />
+                          <ViewLinkButton link="/assets/demos/Hana Maak Demo.mov" />
                          </div>
 
                     </ul>
@@ -60,7 +65,7 @@ const FutureImpactSection = () => {
             <div className="absolute md:top-[10rem] lg:top-[-1rem] w-full md:max-w-[350px] lg:max-w-[700px] mx-auto md:left-[1rem] lg:left-[-3rem] bg-opacity-20 rounded-full md:block hidden">
                 <img src='/assets/three_phones.svg' className='w-full h-auto rounded-xl'/>
                 <div className='flex justify-center lg:-mt-12'>
-                  <ViewLinkButton link="https://google.com"/>
+                  <ViewLinkButton link="/assets/demos/Hana Maak Demo.mov"/>
                 </div>
             </div>
       </div>

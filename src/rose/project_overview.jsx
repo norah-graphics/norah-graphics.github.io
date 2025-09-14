@@ -91,7 +91,7 @@ const ProjectOverViewSection = () => {
         </p>
     </div>
     <div className="w-full p-6 " dir="ltr">
-    <div className="flex flex-col md:flex-row items-center justify-between">
+    <div className="flex  flex-col-reverse md:flex-row items-center justify-between">
 
         {/* Step 1 */}
         <div>

@@ -7,11 +7,11 @@ const UserPersona2Section = () => {
        
       >
          {/* Title Box - Top center  */}
-         <div className="absolute -top-6 right-[40%] md:right-[25%] lg:right-[20%] bg-[#D14D72]  pr-16 rounded-full px-6 font-zain  ">
+         <div className="absolute -top-6 right-[0%] md:right-[25%] lg:right-[20%] bg-[#D14D72]  pr-16  md:rounded-full rounded-l-full  px-6 font-zain  ">
           <h2 className="text-[#FFFFFF] font-extrabold font-zain text-2xl md:text-3xl px-2">User Persona</h2>
         </div>
         {/* Title Box - Top right*/}
-        <div className="absolute -top-8 -right-[1px] bg-[#D14D72] rounded-l-full px-6 py-2 font-zain  ">
+        <div className="absolute  md:block hidden -top-8 -right-[1px] bg-[#D14D72] rounded-l-full px-6 py-2 font-zain  ">
           <h2 className="text-[#FFFFFF] font-extrabold font-zain text-2xl md:text-3xl px-2">شخصيـة المستخــدم</h2>
         </div>
        

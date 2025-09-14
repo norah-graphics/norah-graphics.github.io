@@ -8,7 +8,7 @@ const Header = () => {
   const location = useLocation();
 
   const openResume = () => {
-    window.open('/Norah_Mohammed_Senior_Graphic_Designer_&_UX_UI_Specialist.pdf', '_blank');
+    window.open("/assets/Norah's_CV_2025-2026.pdf", '_blank');
     setIsMenuOpen(false); // Close menu after action
   };
 
